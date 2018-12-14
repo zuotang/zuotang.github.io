@@ -1,11 +1,5 @@
-Gst Mobile Site
+个人博客
 ---------------
-new version for m.gstzy.cn weixin.gstyun.cn
-
-### React+ant-mobile 服务端渲染
-优化打包、服务端首屏渲染、按需加载、按屏幕展示加载组件、使用antd-moubileUI框架、webpack4
-* 客户端 React + Redux + Ant-Mobile
-* 服务端 Koa2
 
 
 启动
