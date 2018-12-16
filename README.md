@@ -1,10 +1,8 @@
-个人博客
----------------
+## 个人博客 Tangzuo
 
+## 启动
 
-启动
--------------------
-``` 
+```
 //安装依赖
 npm install
 
@@ -17,25 +15,29 @@ npm run start
 
 ```
 
-开发规范
---------------------
+## 开发规范
+
 请启用 prettier 插件,在文件保存时会自动规范代码
+
 #### vscode
+
 插件->prettier->安装
+
 #### webstorm
-file->setting->搜索prettier->启用prettier插件,并指定prettier包地址(需要本地全局安装prettier包)->fileWatcher->add 添加prettier文件监听,指定perttier.cmd执行文件位置
 
-备忘录
-------------
+file->setting->搜索 prettier->启用 prettier 插件,并指定 prettier 包地址(需要本地全局安装 prettier 包)->fileWatcher->add 添加 prettier 文件监听,指定 perttier.cmd 执行文件位置
 
-#### 开启eslint
+## 备忘录
+
+#### 开启 eslint
 
 ```
 #安装eslint相关包
 npm i babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 ```
 
-#### eslint配置
+#### eslint 配置
+
 ```json
 {
   "parser": "babel-eslint",
@@ -67,5 +69,4 @@ npm i babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plu
     }
   }
 }
-
 ```
