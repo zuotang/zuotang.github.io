@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import Loadable from 'react-loadable';
 import App from './containers/App';
 
-import {BrowserRouter as Router} from 'react-router-dom';
-//import ServerSideStyleClear from './components/ServerSideStyleClear';
+import {HashRouter as Router} from 'react-router-dom';
 
 import '@/css/public.css';
 

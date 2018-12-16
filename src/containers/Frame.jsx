@@ -46,6 +46,7 @@ const styles = theme => ({
   },
   content: {
     flexGrow: 1,
+    width: '100%',
   },
   toolbarContent: {
     display: 'flex',
