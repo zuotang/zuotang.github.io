@@ -2,6 +2,8 @@
 
 #### 2018-12-17
 
+tags: Markdown,
+
 ### 使用插件
 
 - [react-markdown](https://github.com/rexxars/react-markdown) react 的 markdown 显示组件
@@ -18,7 +20,7 @@
 
 ## Markdown
 
-使用 react-markdown 插件，通过传入 renderers 道具可以方便定制自己的渲染，这里只做一些简单的演示，具体可以查看我的[blog 源码](https://github.com/zuotang/MyBlog)。
+使用 react-markdown 插件，通过传入 renderers 道具可以方便定制自己的渲染，这里只做一些简单的演示，具体可以查看我的[blog 源码](https://github.com/zuotang/MyBlog/tree/master/src/components/markdown)。
 把 markdown 封装成组件，方便复用.
 com/Markdown.jsx
 
@@ -55,32 +57,21 @@ const renderers = {
         return <Code {...props} />;
     }
   },
-  link: withStyles(styles)(({classes, ...props}) => (
-    <a href={props.href} className={classes.link}>
-      {props.children}
-    </a>
-  )),
+  link: props => <a href={props.href}>{props.children}</a>,
 };
 ```
 
-### emoji
+### Emoji
 
 使用'react-emoji-render'插件，只需要把内容传入 text 道具即可
 
-### chart
+### Chart
 
 ```js
-import React, {useState, useEffect, useRef} from 'react';
-import {withStyles} from '@material-ui/core/styles';
+import React, {useEffect, useRef} from 'react';
 import Chart from 'chart.js';
 
-const styles = theme => ({
-  code: {
-    margin: '10px 0',
-  },
-});
-
-function Code(props) {
+function Chart(props) {
   let chartRef = useRef();
   useEffect(() => {
     var ctx = chartRef.current.getContext('2d');
@@ -88,9 +79,94 @@ function Code(props) {
   });
   return <canvas ref={chartRef} id="myChart" width="400" height="400" />;
 }
-
-export default withStyles(styles)(Code);
 ```
+
+### Code
+
+代码高亮插件
+
+```js
+import React, {useEffect, useRef} from 'react';
+import hljs from 'highlight.js';
+import 'highlight.js/styles/atom-one-dark.css';
+
+function Code(props) {
+  let codeRef = useRef();
+  useEffect(() => {
+    hljs.highlightBlock(codeRef.current);
+  });
+  return (
+    <pre>
+      <code ref={codeRef} className={`language-${props.language}`}>
+        {props.value}
+      </code>
+    </pre>
+  );
+}
+```
+
+### Graph
+
+流程图组件， 每次 render 都生成一个新的 name，让热加载时可以刷新显示。
+
+```js
+import React from 'react';
+import mermaid from 'mermaid';
+import SnackbarContent from '@material-ui/core/SnackbarContent';
+
+// 语法错误处理
+function ErrorSnackBar({message}) {
+  // 使用material-ui提示组件
+  return <SnackbarContent message={message} />;
+}
+
+function Graph(props) {
+  try {
+    mermaid.parse(props.value);
+  } catch (err) {
+    return <ErrorSnackBar message={err.str} />;
+  }
+  // 每次生成一个新的name，热加载时可以刷新显示
+  let name = parseInt(Math.random() * 10000);
+  let html = mermaid.render(`graph_${name}`, props.value);
+  return <div dangerouslySetInnerHTML={{__html: html}} />;
+}
+```
+
+---
+
+# 效果展示
+
+## Emoji: :panda_face: :sparkles: :camel: :boom: :pig:
+
+[emoji 参考](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
+### Mermaid
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+
+```
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->John: Hello John, how are you?
+    loop Healthcheck
+        John->John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail...
+    John-->Alice: Great!
+    John->Bob: How about you?
+    Bob-->John: Jolly good!
+```
+
+### Chart
 
 ```chart
 {
@@ -137,66 +213,4 @@ export default withStyles(styles)(Code);
   },
   "options": {}
 }
-```
-
-[emoji 参考](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
-
-# Hello
-
-## Emoji: :panda_face: :sparkles: :camel: :boom: :pig:
-
-**_ test _**
-
-`print test`
-
-[Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/)
-
-```mermaid
-graph TB
-A --- B
-```
-
-```mermaid
-
-gantt
-        dateFormat  YYYY-MM-DD
-        title Adding GANTT diagram functionality to mermaid
-        section A section
-        Completed task            :done,    des1, 2014-01-06,2014-01-08
-        Active task               :active,  des2, 2014-01-09, 3d
-        Future task               :         des3, after des2, 5d
-        Future task2               :         des4, after des3, 5d
-        section Critical tasks
-        Completed task in the critical line :crit, done, 2014-01-06,24h
-        Implement parser and jison          :crit, done, after des1, 2d
-        Create tests for parser             :crit, active, 3d
-        Future task in critical line        :crit, 5d
-        Create tests for renderer           :2d
-        Add to mermaid                      :1d
-
-```
-
-```js
-import React from 'react';
-import Typography from '@material-ui/core/Typography';
-import {withStyles} from '@material-ui/core/styles';
-
-const styles = theme => ({
-  footer: {
-    backgroundColor: theme.palette.background.paper,
-    marginTop: theme.spacing.unit * 8,
-    padding: `${theme.spacing.unit * 6}px 0`,
-  },
-});
-
-function Footer({classes}) {
-  return (
-    <footer className={classes.footer}>
-      <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-        这是一个还没有内容的底部
-      </Typography>
-    </footer>
-  );
-}
-export default withStyles(styles)(Footer);
 ```

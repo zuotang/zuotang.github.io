@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ReactMarkdown from 'react-markdown';
 import Loadable from 'react-loadable';
 import Emoji from 'react-emoji-render';
 
 import {withStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
+import {withRouter} from 'react-router-dom';
 
 // 使用动态加载包，加快速度
 const Graph = Loadable({
@@ -34,11 +35,17 @@ const variants = ['h4', 'h6', 'subtitle1', 'caption', 'caption'];
 // 渲染自己的markdown元素，其中键表示节点类型，值是React组件。该对象与默认渲染器合并。传递给组件的props不同，具体取决于节点的类型。
 const renderers = {
   text: props => <Emoji text={props.children} />,
-  heading: props => (
-    <Typography gutterBottom variant={variants[props.level - 1]}>
-      {props.children}
-    </Typography>
-  ),
+  heading: withRouter(props => {
+    let text = props.children[0].props.value;
+    let content = text.match(/[\u4e00-\u9fa5a-zA-Z\d\-\_]*/gi).join('');
+    let level = props.level;
+    return (
+      <Typography gutterBottom variant={variants[level - 1]} id={`user-content-${content}`}>
+        {/* <a href={`/#${props.match.url}#${content}`}>-</a> */}
+        {props.children}
+      </Typography>
+    );
+  }),
   paragraph: props => <Typography paragraph>{props.children}</Typography>,
   listItem: withStyles(styles)(({classes, ...props}) => (
     <li className={classes.listItem}>
@@ -62,8 +69,26 @@ const renderers = {
   )),
 };
 
+let init = true;
 function Markdown({children, ...props}) {
+  useEffect(() => {
+    let hash = props.location.hash;
+    if (hash) {
+      let id = `user-content-${decodeURI(hash.substr(1))}`;
+      let anchorElement = document.getElementById(id);
+      if (anchorElement) {
+        if (init) {
+          init = false;
+          setTimeout(() => {
+            anchorElement.scrollIntoView();
+          }, 500);
+        } else {
+          anchorElement.scrollIntoView({behavior: 'smooth', block: 'start'});
+        }
+      }
+    }
+  });
   return <ReactMarkdown renderers={renderers}>{children}</ReactMarkdown>;
 }
 
-export default Markdown;
+export default withRouter(Markdown);

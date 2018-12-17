@@ -117,16 +117,12 @@ function Blog(props) {
             </Grid>
           </Grid>
         </Paper>
-        {/* End main featured post */}
-        {/* Sub featured posts */}
         <Grid container spacing={40} className={classes.cardGrid}>
           {featuredPosts.map(post => (
             <PostCard key={post.title} post={post} />
           ))}
         </Grid>
-        {/* End sub featured posts */}
         <Grid container spacing={40} className={classes.mainGrid}>
-          {/* Main content */}
           <Grid item xs={12} md={8}>
             <Typography variant="h6" gutterBottom>
               文章
@@ -138,8 +134,6 @@ function Blog(props) {
               </Markdown>
             ))}
           </Grid>
-          {/* End main content */}
-          {/* Sidebar */}
           <Grid item xs={12} md={4}>
             <Paper elevation={0} className={classes.sidebarAboutBox}>
               <Typography variant="h6" gutterBottom>
@@ -160,12 +154,9 @@ function Blog(props) {
               <Typography key={network}>{network}</Typography>
             ))}
           </Grid>
-          {/* End sidebar */}
         </Grid>
       </main>
-      {/* Footer */}
       <Footer />
-      {/* End footer */}
     </Content>
   );
 }
