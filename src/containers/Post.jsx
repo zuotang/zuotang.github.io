@@ -3,9 +3,10 @@ import {withStyles} from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 import Content from 'com_/Content';
-import Markdown from './Markdown';
+import Markdown from 'com_/markdown/Markdown';
 import Footer from 'com_/Footer';
 import post from '@/static/article/about.md';
+
 const styles = theme => ({});
 
 function Post(props) {

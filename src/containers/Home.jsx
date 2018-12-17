@@ -8,8 +8,9 @@ import Grid from '@material-ui/core/Grid';
 
 import Divider from '@material-ui/core/Divider';
 import Content from 'com_/Content';
-import Markdown from './Markdown';
+import Markdown from 'com_/markdown/Markdown';
 import about from '@/static/article/about.md';
+import test from '@/static/article/test.md';
 
 import PostCard from 'com_/PostCard';
 import Footer from 'com_/Footer';
@@ -45,7 +46,6 @@ const styles = theme => ({
   },
   mainGrid: {
     marginTop: theme.spacing.unit * 3,
-    width: '100%',
   },
   card: {
     display: 'flex',
@@ -89,7 +89,7 @@ const featuredPosts = [
   },
 ];
 
-const posts = [about];
+const posts = [test, about];
 
 const archives = ['2018年12月17日'];
 

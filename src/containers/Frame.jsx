@@ -80,7 +80,7 @@ const Frame = function(props) {
       <Divider />
       <ListSubheader>Activite</ListSubheader>
       <div className={classes.toolbarContent}>
-        <Typography component="p">
+        <Typography component="p" variant="subheading" color="secondary">
           2018-12-14
           <br />
           New Light
@@ -115,7 +115,6 @@ const Frame = function(props) {
         </Toolbar>
       </AppBar>
       <nav className={classes.drawer}>
-        {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
         <Hidden smUp implementation="css">
           <SwipeableDrawer
             container={props.container}
@@ -132,7 +131,7 @@ const Frame = function(props) {
               paper: classes.drawerPaper,
             }}
             ModalProps={{
-              keepMounted: true, // Better open performance on mobile.
+              keepMounted: true,
             }}
           >
             {drawer}
