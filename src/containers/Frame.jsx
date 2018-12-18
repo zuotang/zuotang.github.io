@@ -80,7 +80,7 @@ const Frame = function(props) {
       <Divider />
       <ListSubheader>Activite</ListSubheader>
       <div className={classes.toolbarContent}>
-        <Typography component="p" variant="subheading" color="secondary">
+        <Typography component="p" variant="subtitle1" color="secondary">
           2018-12-14
           <br />
           New Light

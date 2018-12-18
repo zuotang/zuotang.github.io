@@ -16,9 +16,9 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname),
-    publicPath: './',
-    filename: 'build/[name].js',
-    chunkFilename: 'build/[name].js',
+    publicPath: '/',
+    filename: '[name].js',
+    chunkFilename: '[name].js',
   },
   module: {
     rules: [
@@ -33,7 +33,17 @@ module.exports = {
       },
       {
         test: /\.md$/,
-        loader: 'raw-loader',
+        use: [
+          {
+            loader: 'raw-loader',
+          },
+          {
+            loader: path.resolve(__dirname, 'markdown-loader.js'),
+            options: {
+              /* ... */
+            },
+          },
+        ],
       },
     ],
   },

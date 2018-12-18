@@ -2,6 +2,13 @@ import React, {PureComponent} from 'react';
 import {Route, Switch, withRouter} from 'react-router-dom';
 import Loadable from 'react-loadable';
 import Loading from 'com_/Loading';
+import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+  typography: {
+    useNextVariants: true,
+  },
+});
 
 const Frame = Loadable({
   loader: () => import('con_/Frame.jsx'),
@@ -18,14 +25,14 @@ const Post = Loadable({
 
 function App(props) {
   return (
-    <React.Fragment>
+    <MuiThemeProvider theme={theme}>
       <Frame>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/post/:name" component={Post} />
         </Switch>
       </Frame>
-    </React.Fragment>
+    </MuiThemeProvider>
   );
 }
 export default withRouter(App);

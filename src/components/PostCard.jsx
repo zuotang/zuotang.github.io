@@ -35,7 +35,7 @@ function PostCard({post, classes, className}) {
           <Typography variant="subtitle1" paragraph>
             {post.description}
           </Typography>
-          <Link to={post.link}>
+          <Link to={`/post/${post.name}`}>
             <Typography variant="subtitle1" color="primary">
               查看全文...
             </Typography>

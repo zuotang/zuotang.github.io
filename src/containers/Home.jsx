@@ -11,6 +11,8 @@ import Content from 'com_/Content';
 
 import PostCard from 'com_/PostCard';
 import Footer from 'com_/Footer';
+import postData from '../data.json';
+
 const styles = theme => ({
   layout: {
     width: 'auto',
@@ -47,36 +49,7 @@ const styles = theme => ({
   },
 });
 
-const posts = [
-  {
-    title: 'Covenant',
-    link: '#',
-    date: '12月14日',
-    description: '最近开发公众号，很多展示型页面。觉得Redux写起来太过麻烦，自己写了个小插件redux-covenant',
-    thumbnail:
-      'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544809648282&di=ec308f39dd0da28df03245447be85921&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201412%2F04%2F20141204151458_TE52s.thumb.700_0.jpeg',
-  },
-  {
-    title: 'MyBlog',
-    link: '/post/about',
-    date: '12月14日',
-    description: '想用React最新Api的"hooks"写个练习。于是我的个人博客诞生了～ 也准备用来记录一些学习知识',
-    thumbnail:
-      'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544809697737&di=bac48385254ad9967d4943b339f0c6df&imgtype=0&src=http%3A%2F%2Fimage2.xyzs.com%2Fupload%2Fa6%2F66%2F326%2F20150507%2F143093648599519_0.jpg',
-  },
-  {
-    title: 'Markdown',
-    link: '/post/markdown',
-    date: '12月14日',
-    description: '想用React最新Api的"hooks"写个练习。于是我的个人博客诞生了～ 也准备用来记录一些学习知识',
-  },
-  {
-    title: 'Markdown',
-    link: '/post/about',
-    date: '12月14日',
-    description: '想用React最新Api的"hooks"写个练习。于是我的个人博客诞生了～ 也准备用来记录一些学习知识',
-  },
-];
+const posts = Object.values(postData);
 const featuredPosts = posts.slice(0, 2);
 const showPosts = posts.slice(2);
 

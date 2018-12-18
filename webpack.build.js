@@ -21,6 +21,12 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin');
 
 const config = {
+  output: {
+    path: path.resolve(__dirname),
+    publicPath: './',
+    filename: 'build/[name].js',
+    chunkFilename: 'build/[name].js',
+  },
   optimization: {
     nodeEnv: 'production',
     namedChunks: true,
