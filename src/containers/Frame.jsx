@@ -12,7 +12,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import {withStyles} from '@material-ui/core/styles';
 import GitHub from 'com_/icons/GitHub';
-import {mainListItems} from './listItems';
+import MainListItems from './MainListItems';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import ListSubheader from '@material-ui/core/ListSubheader';
 
@@ -46,7 +46,7 @@ const styles = theme => ({
   },
   content: {
     flexGrow: 1,
-    width: '100%',
+    width: `calc(100% - ${drawerWidth}px)`,
   },
   toolbarContent: {
     display: 'flex',
@@ -76,12 +76,20 @@ const Frame = function(props) {
         <h6 className={classes.webName}>ZUO TANG</h6>
       </div>
       <Divider />
-      <List>{mainListItems}</List>
+      <List>
+        <MainListItems
+          onClose={e => {
+            setOpen(false);
+          }}
+        />
+      </List>
       <Divider />
-      <ListSubheader>Activite</ListSubheader>
+      <ListSubheader>Notice</ListSubheader>
       <div className={classes.toolbarContent}>
-        <Typography component="p" variant="subtitle1" color="secondary">
-          2018-12-14
+        <Typography component="p" variant="caption" color="textSecondary">
+          本博客创建于
+          <br />
+          2018/12/14
           <br />
           New Light
         </Typography>

@@ -1,15 +1,18 @@
 import React, {useState, useEffect} from 'react';
 import {withStyles} from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import Grid from '@material-ui/core/Grid';
 
 import Content from 'com_/Content';
 import Markdown from 'com_/markdown/Markdown';
 import Footer from 'com_/Footer';
+import axios from 'axios';
+import {getMarkdownData} from 'utils_/markdown';
 
 const styles = theme => ({});
 
 function Post(props) {
-  let [content, setContent] = useState('');
+  let [md, setMd] = useState();
   const {
     classes,
     match: {
@@ -18,9 +21,8 @@ function Post(props) {
   } = props;
   useEffect(
     () => {
-      console.log(name);
-      import(`@/article/${name}.md`).then(data => {
-        setContent(data.default);
+      axios.get(`./article/${name}.md`).then(res => {
+        setMd(getMarkdownData(res.data));
       });
     },
     [name]
@@ -29,9 +31,14 @@ function Post(props) {
   return (
     <Content>
       <CssBaseline />
-      <main>
-        <Markdown className={classes.markdown}>{content}</Markdown>
-      </main>
+      <Grid container spacing={40} className={classes.mainGrid}>
+        <Grid item xs={12} md={10}>
+          <main>{md && <Markdown className={classes.markdown}>{md.content}</Markdown>}</main>
+        </Grid>
+        <Grid item xs={12} md={2}>
+          走失的菜单栏
+        </Grid>
+      </Grid>
       <Footer />
     </Content>
   );

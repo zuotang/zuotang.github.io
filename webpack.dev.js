@@ -56,7 +56,7 @@ const config = {
   mode: 'development',
   devServer: {
     host: getIPAdress(),
-    contentBase: path.join(__dirname, './src'),
+    contentBase: path.join(__dirname, './'),
     inline: true,
     hot: true,
     open: true,

@@ -1,6 +1,5 @@
 ```json data
 {
-  "name": "markdown",
   "date": "2018/12/17",
   "tags": ["Python", "Javascript", "Hexo"],
   "categories": ["Test"],

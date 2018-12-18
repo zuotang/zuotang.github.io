@@ -103,12 +103,12 @@ const config = {
       filename: 'build/[name].css',
       chunkFilename: 'build/[name].css',
     }),
-    new CleanWebpackPlugin(['./build']), //删除打包文件
-    new CopyWebpackPlugin([
-      //复制静态文件
-      {from: path.join(__dirname, './src/static'), to: 'static'},
-      {from: path.join(__dirname, './src/article'), to: 'article'},
-    ]),
+    //new CleanWebpackPlugin(['./build/*']), //删除打包文件
+    // new CopyWebpackPlugin([
+    //   //复制静态文件
+    //   {from: path.join(__dirname, './src/static'), to: 'static'},
+    //   {from: path.join(__dirname, './src/article'), to: 'article'},
+    // ]),
     new InlineManifestWebpackPlugin(),
 
     new ReactLoadablePlugin({

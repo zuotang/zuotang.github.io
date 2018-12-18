@@ -9,10 +9,10 @@ import LinkIcon from '@material-ui/icons/Link';
 import SmsIcon from '@material-ui/icons/Sms';
 import {Link} from 'react-router-dom';
 
-export const mainListItems = (
-  <div>
+const MainListItems = ({onClose}) => (
+  <React.Fragment>
     <Link to="/">
-      <ListItem button>
+      <ListItem button onClick={onClose}>
         <ListItemIcon>
           <HomeIcon />
         </ListItemIcon>
@@ -20,30 +20,32 @@ export const mainListItems = (
       </ListItem>
     </Link>
     <Link to="/post/about">
-      <ListItem button>
+      <ListItem button onClick={onClose}>
         <ListItemIcon>
           <FaceIcon />
         </ListItemIcon>
         <ListItemText primary="关于我" />
       </ListItem>
     </Link>
-    <ListItem button>
+    <ListItem button onClick={onClose}>
       <ListItemIcon>
         <SmsIcon />
       </ListItemIcon>
       <ListItemText primary="联系我" />
     </ListItem>
-    <ListItem button>
+    <ListItem button onClick={onClose}>
       <ListItemIcon>
         <LocalOfferIcon />
       </ListItemIcon>
       <ListItemText primary="Tag" />
     </ListItem>
-    <ListItem button>
+    <ListItem button onClick={onClose}>
       <ListItemIcon>
         <LinkIcon />
       </ListItemIcon>
       <ListItemText primary="友情链接" />
     </ListItem>
-  </div>
+  </React.Fragment>
 );
+
+export default MainListItems;

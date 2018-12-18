@@ -37,12 +37,6 @@ module.exports = {
           {
             loader: 'raw-loader',
           },
-          {
-            loader: path.resolve(__dirname, 'markdown-loader.js'),
-            options: {
-              /* ... */
-            },
-          },
         ],
       },
     ],
