@@ -2943,7 +2943,7 @@
       "publicPath": "build/main.js"
     }
   ],
-  "./transitions": [
+  "../styles/transitions": [
     {
       "id": 58,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/transitions.js",

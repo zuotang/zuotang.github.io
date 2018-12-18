@@ -67,6 +67,9 @@ const renderers = {
       {props.children}
     </a>
   )),
+  image: props => {
+    return <img {...props} style={{maxWidth: '100%'}} />;
+  },
 };
 
 function Markdown({children, ...props}) {
