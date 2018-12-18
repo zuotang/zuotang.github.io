@@ -16,7 +16,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname),
-    publicPath: '/',
+    publicPath: './',
     filename: 'build/[name].js',
     chunkFilename: 'build/[name].js',
   },
@@ -53,7 +53,7 @@ module.exports = {
       title: 'ZUOTANG',
       inject: true,
       filename: 'index.html',
-      template: path.join(__dirname, './index.ejs'),
+      template: path.join(__dirname, './src/index.ejs'),
     }),
   ],
 };
