@@ -1,24 +1,36 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {withStyles} from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 import Content from 'com_/Content';
 import Markdown from 'com_/markdown/Markdown';
 import Footer from 'com_/Footer';
-import post from '@/static/article/about.md';
 
 const styles = theme => ({});
 
 function Post(props) {
-  const {classes} = props;
+  let [content, setContent] = useState('');
+  const {
+    classes,
+    match: {
+      params: {name},
+    },
+  } = props;
+  useEffect(
+    () => {
+      console.log(name);
+      import(`@/article/${name}.md`).then(data => {
+        setContent(data.default);
+      });
+    },
+    [name]
+  );
 
   return (
     <Content>
       <CssBaseline />
       <main>
-        <Markdown className={classes.markdown} key={post.substring(0, 40)}>
-          {post}
-        </Markdown>
+        <Markdown className={classes.markdown}>{content}</Markdown>
       </main>
       <Footer />
     </Content>

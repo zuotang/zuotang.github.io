@@ -94,20 +94,21 @@ const config = {
   mode: 'production',
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'v2/[name].css',
-      chunkFilename: 'v2/[name].css',
+      filename: 'build/[name].css',
+      chunkFilename: 'build/[name].css',
     }),
     new CleanWebpackPlugin(['./build']), //删除打包文件
     new CopyWebpackPlugin([
       //复制静态文件
-      {from: path.join(__dirname, './src/static'), to: 'v2/static'},
+      {from: path.join(__dirname, './src/static'), to: 'static'},
+      {from: path.join(__dirname, './src/article'), to: 'article'},
     ]),
     new InlineManifestWebpackPlugin(),
 
     new ReactLoadablePlugin({
       filename: './build/react-loadable.json',
     }),
-    //new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin(),
   ],
 };
 

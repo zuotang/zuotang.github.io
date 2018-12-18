@@ -4,8 +4,7 @@
 /node_modules
 
 # production
-/www
-/build
+#/build
 
 # ide
 /.idea

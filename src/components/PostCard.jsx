@@ -6,8 +6,8 @@ import Hidden from '@material-ui/core/Hidden';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {withStyles} from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
 import {Link} from 'react-router-dom';
+import classNames from 'classnames';
 
 const styles = theme => ({
   card: {
@@ -21,28 +21,28 @@ const styles = theme => ({
   },
 });
 
-function PostCard({post, classes}) {
+function PostCard({post, classes, className}) {
   return (
-    <Grid item xs={12} md={6}>
-      <Card className={classes.card}>
-        <div className={classes.cardDetails}>
-          <CardContent>
-            <Typography component="h2" variant="h5">
-              {post.title}
+    <Card className={classNames(classes.card, className)}>
+      <div className={classes.cardDetails}>
+        <CardContent>
+          <Typography component="h2" variant="h5">
+            {post.title}
+          </Typography>
+          <Typography variant="subtitle1" color="textSecondary">
+            {post.date}
+          </Typography>
+          <Typography variant="subtitle1" paragraph>
+            {post.description}
+          </Typography>
+          <Link to={post.link}>
+            <Typography variant="subtitle1" color="primary">
+              查看全文...
             </Typography>
-            <Typography variant="subtitle1" color="textSecondary">
-              {post.date}
-            </Typography>
-            <Typography variant="subtitle1" paragraph>
-              {post.description}
-            </Typography>
-            <Link to={post.link}>
-              <Typography variant="subtitle1" color="primary">
-                查看全文...
-              </Typography>
-            </Link>
-          </CardContent>
-        </div>
+          </Link>
+        </CardContent>
+      </div>
+      {post.thumbnail && (
         <Hidden xsDown>
           <CardMedia
             className={classes.cardMedia}
@@ -50,8 +50,8 @@ function PostCard({post, classes}) {
             title={post.title}
           />
         </Hidden>
-      </Card>
-    </Grid>
+      )}
+    </Card>
   );
 }
 export default withStyles(styles)(PostCard);

@@ -8,9 +8,6 @@ import Grid from '@material-ui/core/Grid';
 
 import Divider from '@material-ui/core/Divider';
 import Content from 'com_/Content';
-import Markdown from 'com_/markdown/Markdown';
-import about from '@/static/article/about.md';
-import test from '@/static/article/test.md';
 
 import PostCard from 'com_/PostCard';
 import Footer from 'com_/Footer';
@@ -25,15 +22,6 @@ const styles = theme => ({
       marginRight: 'auto',
     },
   },
-  toolbarMain: {
-    borderBottom: `1px solid ${theme.palette.grey[300]}`,
-  },
-  toolbarTitle: {
-    flex: 1,
-  },
-  toolbarSecondary: {
-    justifyContent: 'space-between',
-  },
   mainFeaturedPost: {
     backgroundColor: theme.palette.grey[0],
     marginBottom: theme.spacing.unit * 4,
@@ -47,18 +35,6 @@ const styles = theme => ({
   mainGrid: {
     marginTop: theme.spacing.unit * 3,
   },
-  card: {
-    display: 'flex',
-  },
-  cardDetails: {
-    flex: 1,
-  },
-  cardMedia: {
-    width: 160,
-  },
-  markdown: {
-    padding: `${theme.spacing.unit * 3}px 0`,
-  },
   sidebarAboutBox: {
     padding: theme.spacing.unit * 2,
     backgroundColor: theme.palette.grey[200],
@@ -66,11 +42,12 @@ const styles = theme => ({
   sidebarSection: {
     marginTop: theme.spacing.unit * 3,
   },
+  post: {
+    marginTop: theme.spacing.unit * 3,
+  },
 });
 
-const sections = ['Technology', 'Design', 'Culture', 'Business', 'Politics', 'Opinion', 'Science', 'Health', 'Style', 'Travel'];
-
-const featuredPosts = [
+const posts = [
   {
     title: 'Covenant',
     link: '#',
@@ -87,9 +64,21 @@ const featuredPosts = [
     thumbnail:
       'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544809697737&di=bac48385254ad9967d4943b339f0c6df&imgtype=0&src=http%3A%2F%2Fimage2.xyzs.com%2Fupload%2Fa6%2F66%2F326%2F20150507%2F143093648599519_0.jpg',
   },
+  {
+    title: 'Markdown',
+    link: '/post/markdown',
+    date: '12月14日',
+    description: '想用React最新Api的"hooks"写个练习。于是我的个人博客诞生了～ 也准备用来记录一些学习知识',
+  },
+  {
+    title: 'Markdown',
+    link: '/post/about',
+    date: '12月14日',
+    description: '想用React最新Api的"hooks"写个练习。于是我的个人博客诞生了～ 也准备用来记录一些学习知识',
+  },
 ];
-
-const posts = [test, about];
+const featuredPosts = posts.slice(0, 2);
+const showPosts = posts.slice(2);
 
 const archives = ['2018年12月17日'];
 
@@ -105,7 +94,7 @@ function Blog(props) {
         {/* Main featured post */}
         <Paper className={classes.mainFeaturedPost}>
           <Grid container>
-            <Grid item md={6}>
+            <Grid item>
               <div className={classes.mainFeaturedPostContent}>
                 <Typography component="h1" variant="h4" color="secondary" gutterBottom>
                   唐左的个人博客
@@ -118,8 +107,10 @@ function Blog(props) {
           </Grid>
         </Paper>
         <Grid container spacing={40} className={classes.cardGrid}>
-          {featuredPosts.map(post => (
-            <PostCard key={post.title} post={post} />
+          {featuredPosts.map((post, key) => (
+            <Grid item xs={12} md={6} key={key}>
+              <PostCard post={post} />
+            </Grid>
           ))}
         </Grid>
         <Grid container spacing={40} className={classes.mainGrid}>
@@ -128,10 +119,9 @@ function Blog(props) {
               文章
             </Typography>
             <Divider />
-            {posts.map(post => (
-              <Markdown className={classes.markdown} key={post.substring(0, 40)}>
-                {post}
-              </Markdown>
+
+            {showPosts.map((post, key) => (
+              <PostCard key={key} post={post} className={classes.post} />
             ))}
           </Grid>
           <Grid item xs={12} md={4}>

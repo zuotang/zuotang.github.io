@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react';
-import hljs from 'highlight.js';
-import 'highlight.js/styles/atom-one-dark.css';
+//import hljs from 'highlight.js';
+//import 'highlight.js/styles/atom-one-dark.css';
+import hljs from 'highlight';
 
 import Paper from '@material-ui/core/Paper';
 import {withStyles} from '@material-ui/core/styles';

@@ -6,7 +6,7 @@ import Emoji from 'react-emoji-render';
 import {withStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import {withRouter} from 'react-router-dom';
-
+import {getAnchor, toAnchor} from './Anchor';
 // 使用动态加载包，加快速度
 const Graph = Loadable({
   loader: () => import('./Graph'),
@@ -36,12 +36,12 @@ const variants = ['h4', 'h6', 'subtitle1', 'caption', 'caption'];
 const renderers = {
   text: props => <Emoji text={props.children} />,
   heading: withRouter(props => {
-    let text = props.children[0].props.value;
-    let content = text.match(/[\u4e00-\u9fa5a-zA-Z\d\-\_]*/gi).join('');
+    let value = props.children[0].props.value;
+    let anchor = getAnchor(value);
     let level = props.level;
     return (
-      <Typography gutterBottom variant={variants[level - 1]} id={`user-content-${content}`}>
-        {/* <a href={`/#${props.match.url}#${content}`}>-</a> */}
+      <Typography gutterBottom variant={variants[level - 1]} id={`user-content-${anchor}`}>
+        {/* <a href={`/#${props.match.url}#${anchor}`}>-</a> */}
         {props.children}
       </Typography>
     );
@@ -69,25 +69,8 @@ const renderers = {
   )),
 };
 
-let init = true;
 function Markdown({children, ...props}) {
-  useEffect(() => {
-    let hash = props.location.hash;
-    if (hash) {
-      let id = `user-content-${decodeURI(hash.substr(1))}`;
-      let anchorElement = document.getElementById(id);
-      if (anchorElement) {
-        if (init) {
-          init = false;
-          setTimeout(() => {
-            anchorElement.scrollIntoView();
-          }, 500);
-        } else {
-          anchorElement.scrollIntoView({behavior: 'smooth', block: 'start'});
-        }
-      }
-    }
-  });
+  toAnchor(props);
   return <ReactMarkdown renderers={renderers}>{children}</ReactMarkdown>;
 }
 

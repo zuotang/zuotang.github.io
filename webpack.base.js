@@ -9,11 +9,16 @@ module.exports = {
   entry: {
     main: path.resolve(__dirname, './src/index.js'),
   },
+  externals: {
+    chart: 'Chart',
+    highlight: 'hljs',
+    mermaid: 'mermaid',
+  },
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname),
     publicPath: '/',
-    filename: 'v2/[name].js',
-    chunkFilename: 'v2/[name].js',
+    filename: 'build/[name].js',
+    chunkFilename: 'build/[name].js',
   },
   module: {
     rules: [
@@ -45,7 +50,7 @@ module.exports = {
     }),
     ////new OfflinePlugin(),//离线缓存
     new HTMLWebpackPlugin({
-      title: '固生堂',
+      title: 'ZUOTANG',
       inject: true,
       filename: 'index.html',
       template: path.join(__dirname, './index.ejs'),
