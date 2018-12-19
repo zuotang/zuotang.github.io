@@ -7,6 +7,7 @@ import {withStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import {withRouter} from 'react-router-dom';
 import {getAnchor, toAnchor} from './Anchor';
+import {getImg} from '_public';
 // 使用动态加载包，加快速度
 const Graph = Loadable({
   loader: () => import('./Graph'),
@@ -30,7 +31,7 @@ const styles = theme => ({
     color: theme.palette.primary.main,
   },
 });
-const variants = ['h4', 'h6', 'subtitle1', 'caption', 'caption'];
+const variants = ['h2', 'h4', 'h6', 'subtitle1', 'subtitle2'];
 
 // 渲染自己的markdown元素，其中键表示节点类型，值是React组件。该对象与默认渲染器合并。传递给组件的props不同，具体取决于节点的类型。
 const renderers = {
@@ -46,10 +47,10 @@ const renderers = {
       </Typography>
     );
   }),
-  paragraph: props => <Typography paragraph>{props.children}</Typography>,
+  paragraph: props => <Typography paragraph variant="body1" >{props.children}</Typography>,
   listItem: withStyles(styles)(({classes, ...props}) => (
     <li className={classes.listItem}>
-      <Typography component="span">{props.children}</Typography>
+      <Typography component="span"  variant="body1">{props.children}</Typography>
     </li>
   )),
   code: props => {
@@ -67,8 +68,8 @@ const renderers = {
       {props.children}
     </a>
   )),
-  image: props => {
-    return <img {...props} style={{maxWidth: '100%'}} />;
+  image: ({src,...props}) => {
+    return <img {...props} src={getImg(src)} style={{maxWidth: '100%'}} />;
   },
 };
 

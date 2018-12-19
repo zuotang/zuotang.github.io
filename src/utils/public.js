@@ -1,9 +1,10 @@
 //共用方法
-import {host} from 'api_/hostConf';
-export const dirServer = '../www';
-export const dirBuild = '../build';
+// 基础路径
+export const basename='/blog'
 //图片地址
-//export const adminImgUrl = '//admin-gstzy.oss-cn-shenzhen.aliyuncs.com/data/upload/';
-export const getAdminImg = url => {
-  return `${host.dr_img}/${url}`;
+export const getImg = url => {
+  let reg=/^\/[^\/]/
+  if(!reg.test(url) || process.env.NODE_ENV=='development')return url
+  return `${basename}${url}`;
 };
+

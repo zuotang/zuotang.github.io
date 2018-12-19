@@ -62,7 +62,6 @@ const config = {
     open: true,
     port: 3093,
     historyApiFallback: true,
-    //proxy: proxy,
     watchOptions: {
       //监听配置变化
       aggregateTimeout: 300,

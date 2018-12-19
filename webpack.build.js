@@ -23,7 +23,7 @@ const InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin');
 const config = {
   output: {
     path: path.resolve(__dirname),
-    publicPath: './',
+    publicPath: '/',
     filename: 'build/[name].js',
     chunkFilename: 'build/[name].js',
   },

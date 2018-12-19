@@ -21,7 +21,7 @@ function Post(props) {
   } = props;
   useEffect(
     () => {
-      axios.get(`./article/${name}.md`).then(res => {
+      axios.get(`/article/${name}.md`).then(res => {
         setMd(getMarkdownData(res.data));
       });
     },

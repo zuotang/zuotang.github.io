@@ -1,36 +1,9 @@
 html {
-  font-size: 14px;
+  font-size: 16px;
   color: #333333;
 }
 a {
   color: inherit;
-}
-@media only screen and (min-width: 350px) {
-  html {
-    font-size: 16px !important;
-  }
-}
-@media only screen and (min-width: 400px) {
-  html {
-    font-size: 17.33333333px !important;
-  }
-}
-
-@media only screen and (min-width: 414px) {
-  html {
-    font-size: 18.08px !important;
-  }
-}
-@media only screen and (min-width: 480px) {
-  html {
-    font-size: 20.6px !important;
-  }
-}
-/*! normalize.css_page v3.0.3 | MIT License | github.com/necolas/normalize.css_page */
-html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
 
 .nowarp {
@@ -61,5 +34,6 @@ svg {
   padding: 0;
   margin: 0;
   vertical-align: bottom;
+  color: inherit !important;
 }
 

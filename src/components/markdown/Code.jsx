@@ -26,9 +26,9 @@ const styles = theme => ({
     },
     '& code': {
       padding: 20,
-      fontFamily: theme.typography.caption.fontFamily,
-      fontSize: theme.typography.caption.fontSize,
-      lineHeight: theme.typography.caption.lineHeight,
+      fontFamily: theme.typography.body1.fontFamily,
+      fontSize: theme.typography.body1.fontSize,
+      lineHeight: theme.typography.body1.lineHeight,
     },
   },
 });

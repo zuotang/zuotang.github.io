@@ -3,6 +3,13 @@ import {Route, Switch, withRouter} from 'react-router-dom';
 import Loadable from 'react-loadable';
 import Loading from 'com_/Loading';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
+//取贴子数据
+import postData from '../data.json';
+//生成列表
+//生成归档
+//生成分类
+//生成标签
+
 
 const theme = createMuiTheme({
   typography: {

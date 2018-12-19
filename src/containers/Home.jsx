@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect,useState } from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -50,8 +50,7 @@ const styles = theme => ({
 });
 
 const posts = Object.values(postData);
-const featuredPosts = posts.slice(0, 2);
-const showPosts = posts.slice(2);
+
 
 const archives = ['2018年12月17日'];
 
@@ -59,7 +58,13 @@ const social = ['GitHub', 'Twitter', 'Facebook'];
 
 function Blog(props) {
   const {classes} = props;
-
+  let [featured,setFeatured]=useState([]);
+  let [post,setPost]=useState([]);
+  useEffect(()=>{
+    setFeatured(posts.slice(0, 2));
+    setPost(posts.slice(2));
+  },[posts])
+  
   return (
     <Content>
       <CssBaseline />
@@ -80,7 +85,7 @@ function Blog(props) {
           </Grid>
         </Paper>
         <Grid container spacing={40} className={classes.cardGrid}>
-          {featuredPosts.map((post, key) => (
+          {featured.map((post, key) => (
             <Grid item xs={12} md={6} key={key}>
               <PostCard post={post} />
             </Grid>
@@ -93,7 +98,7 @@ function Blog(props) {
             </Typography>
             <Divider />
 
-            {showPosts.map((post, key) => (
+            {post.map((post, key) => (
               <PostCard key={key} post={post} className={classes.post} />
             ))}
           </Grid>

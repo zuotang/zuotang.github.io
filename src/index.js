@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import Loadable from 'react-loadable';
 import App from './containers/App';
 
-import {HashRouter as Router} from 'react-router-dom';
-
+import {BrowserRouter as Router} from 'react-router-dom';
+import {basename} from '_public';
 import '@/css/public.css';
 
 if (process.env.NODE_ENV == 'development') {
@@ -22,7 +22,7 @@ const renderDOM = process.env.NODE_ENV == 'production' ? ReactDOM.hydrate : Reac
 const render = (AppCom = App) => {
   console.log('render');
   renderDOM(
-    <Router>
+    <Router basename={basename}>
       <AppCom />
     </Router>,
     document.getElementById('root')
