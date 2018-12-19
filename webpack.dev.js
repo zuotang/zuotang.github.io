@@ -2,6 +2,11 @@ const path = require('path');
 const webpack = require('webpack');
 const configBase = require('./webpack.base.js');
 const merge = require('webpack-merge');
+//html生成
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+
+const webConfig=require('./config.json');
+const {basename,title}=webConfig;
 //获取本机ip
 function getIPAdress() {
   //return '192.168.56.1'
@@ -70,7 +75,14 @@ const config = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(), //热加载
+    new HTMLWebpackPlugin({
+      title: title,
+      inject: true,
+      filename: 'index.html',
+      template: path.join(__dirname, './src/index.ejs'),
+    }),
   ],
+ 
 };
 
 module.exports = merge(configBase, config);

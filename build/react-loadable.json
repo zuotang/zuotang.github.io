@@ -1,4070 +1,4086 @@
 {
   "con_/Post.jsx": [
     {
-      "id": 133,
+      "id": 134,
       "name": "./containers/Post.jsx",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "is-whitespace-character": [
     {
-      "id": 137,
+      "id": 138,
       "name": "../node_modules/_is-whitespace-character@1.0.2@is-whitespace-character/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./utils": [
     {
-      "id": 138,
+      "id": 139,
       "name": "../node_modules/_axios@0.18.0@axios/lib/utils.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "xtend": [
     {
-      "id": 140,
+      "id": 141,
       "name": "../node_modules/_xtend@4.0.1@xtend/immutable.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "trim": [
     {
-      "id": 146,
+      "id": 147,
       "name": "../node_modules/_trim@0.0.1@trim/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "is-decimal": [
     {
-      "id": 147,
+      "id": 148,
       "name": "../node_modules/_is-decimal@1.0.2@is-decimal/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "unist-util-visit": [
     {
-      "id": 148,
+      "id": 149,
       "name": "../node_modules/_unist-util-visit@1.4.0@unist-util-visit/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./../../_process@0.11.10@process/browser.js": [
     {
-      "id": 157,
+      "id": 158,
       "name": "../node_modules/_process@0.11.10@process/browser.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "parse-entities": [
     {
-      "id": 158,
+      "id": 159,
       "name": "../node_modules/_parse-entities@1.2.0@parse-entities/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "repeat-string": [
     {
-      "id": 159,
+      "id": 160,
       "name": "../node_modules/_repeat-string@1.6.1@repeat-string/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "trim-trailing-lines": [
     {
-      "id": 160,
+      "id": 161,
       "name": "../node_modules/_trim-trailing-lines@1.1.1@trim-trailing-lines/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../util/interrupt": [
     {
-      "id": 161,
+      "id": 162,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/util/interrupt.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../util/normalize": [
     {
-      "id": 162,
+      "id": 163,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/util/normalize.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./defaults": [
     {
-      "id": 163,
+      "id": 164,
       "name": "../node_modules/_axios@0.18.0@axios/lib/defaults.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     },
     {
-      "id": 188,
+      "id": 189,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/defaults.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "path": [
     {
-      "id": 185,
+      "id": 186,
       "name": "../node_modules/_path-browserify@0.0.0@path-browserify/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "is-buffer": [
     {
-      "id": 186,
+      "id": 187,
       "name": "../node_modules/_is-buffer@1.1.6@is-buffer/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "is-alphabetical": [
     {
-      "id": 187,
+      "id": 188,
       "name": "../node_modules/_is-alphabetical@1.0.2@is-alphabetical/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../util/get-indentation": [
     {
-      "id": 189,
+      "id": 190,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/util/get-indentation.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../util/html": [
     {
-      "id": 190,
+      "id": 191,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/util/html.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../locate/tag": [
     {
-      "id": 191,
+      "id": 192,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/locate/tag.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../locate/link": [
     {
-      "id": 192,
+      "id": 193,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/locate/link.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "lodash.flatten": [
     {
-      "id": 193,
+      "id": 194,
       "name": "../node_modules/_lodash.flatten@4.4.0@lodash.flatten/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../data/asciiAliases": [
     {
-      "id": 194,
+      "id": 195,
       "name": "../node_modules/_react-emoji-render@0.5.0@react-emoji-render/data/asciiAliases.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./helpers/bind": [
     {
-      "id": 195,
+      "id": 196,
       "name": "../node_modules/_axios@0.18.0@axios/lib/helpers/bind.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./adapters/xhr": [
     {
-      "id": 196,
+      "id": 197,
       "name": "../node_modules/_axios@0.18.0@axios/lib/adapters/xhr.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../core/createError": [
     {
-      "id": 197,
+      "id": 198,
       "name": "../node_modules/_axios@0.18.0@axios/lib/core/createError.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./cancel/isCancel": [
     {
-      "id": 198,
+      "id": 199,
       "name": "../node_modules/_axios@0.18.0@axios/lib/cancel/isCancel.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./cancel/Cancel": [
     {
-      "id": 199,
+      "id": 200,
       "name": "../node_modules/_axios@0.18.0@axios/lib/cancel/Cancel.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "react-markdown": [
     {
-      "id": 301,
+      "id": 302,
       "name": "../node_modules/_react-markdown@4.0.4@react-markdown/lib/react-markdown.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "unified": [
     {
-      "id": 302,
+      "id": 303,
       "name": "../node_modules/_unified@6.2.0@unified/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "extend": [
     {
-      "id": 303,
+      "id": 304,
       "name": "../node_modules/_extend@3.0.2@extend/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "bail": [
     {
-      "id": 304,
+      "id": 305,
       "name": "../node_modules/_bail@1.0.3@bail/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "vfile": [
     {
-      "id": 305,
+      "id": 306,
       "name": "../node_modules/_vfile@2.3.0@vfile/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "vfile-message": [
     {
-      "id": 306,
+      "id": 307,
       "name": "../node_modules/_vfile-message@1.1.1@vfile-message/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "unist-util-stringify-position": [
     {
-      "id": 307,
+      "id": 308,
       "name": "../node_modules/_unist-util-stringify-position@1.1.2@unist-util-stringify-position/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./core.js": [
     {
-      "id": 308,
+      "id": 309,
       "name": "../node_modules/_vfile@2.3.0@vfile/core.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "replace-ext": [
     {
-      "id": 309,
+      "id": 310,
       "name": "../node_modules/_replace-ext@1.0.0@replace-ext/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "trough": [
     {
-      "id": 310,
+      "id": 311,
       "name": "../node_modules/_trough@1.0.3@trough/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./wrap.js": [
     {
-      "id": 311,
+      "id": 312,
       "name": "../node_modules/_trough@1.0.3@trough/wrap.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "x-is-string": [
     {
-      "id": 312,
+      "id": 313,
       "name": "../node_modules/_x-is-string@0.1.0@x-is-string/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "is-plain-obj": [
     {
-      "id": 313,
+      "id": 314,
       "name": "../node_modules/_is-plain-obj@1.1.0@is-plain-obj/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "remark-parse": [
     {
-      "id": 314,
+      "id": 315,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "unherit": [
     {
-      "id": 315,
+      "id": 316,
       "name": "../node_modules/_unherit@1.1.1@unherit/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "inherits": [
     {
-      "id": 316,
+      "id": 317,
       "name": "../node_modules/_inherits@2.0.3@inherits/inherits_browser.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./lib/parser.js": [
     {
-      "id": 317,
+      "id": 318,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/parser.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "state-toggle": [
     {
-      "id": 318,
+      "id": 319,
       "name": "../node_modules/_state-toggle@1.0.1@state-toggle/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "vfile-location": [
     {
-      "id": 319,
+      "id": 320,
       "name": "../node_modules/_vfile-location@2.0.4@vfile-location/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./unescape": [
     {
-      "id": 320,
+      "id": 321,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/unescape.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./decode": [
     {
-      "id": 321,
+      "id": 322,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/decode.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "character-entities-legacy": [
     {
-      "id": 322,
+      "id": 323,
       "name": "../node_modules/_character-entities-legacy@1.1.2@character-entities-legacy/index.json",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "character-reference-invalid": [
     {
-      "id": 323,
+      "id": 324,
       "name": "../node_modules/_character-reference-invalid@1.1.2@character-reference-invalid/index.json",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "is-hexadecimal": [
     {
-      "id": 324,
+      "id": 325,
       "name": "../node_modules/_is-hexadecimal@1.0.2@is-hexadecimal/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "is-alphanumerical": [
     {
-      "id": 325,
+      "id": 326,
       "name": "../node_modules/_is-alphanumerical@1.0.2@is-alphanumerical/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./decode-entity": [
     {
-      "id": 326,
+      "id": 327,
       "name": "../node_modules/_parse-entities@1.2.0@parse-entities/decode-entity.browser.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenizer": [
     {
-      "id": 327,
+      "id": 328,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenizer.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./set-options": [
     {
-      "id": 328,
+      "id": 329,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/set-options.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "markdown-escapes": [
     {
-      "id": 329,
+      "id": 330,
       "name": "../node_modules/_markdown-escapes@1.0.2@markdown-escapes/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./block-elements.json": [
     {
-      "id": 330,
+      "id": 331,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/block-elements.json",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./parse": [
     {
-      "id": 331,
+      "id": 332,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/parse.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "unist-util-remove-position": [
     {
-      "id": 332,
+      "id": 333,
       "name": "../node_modules/_unist-util-remove-position@1.1.2@unist-util-remove-position/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "unist-util-visit-parents": [
     {
-      "id": 333,
+      "id": 334,
       "name": "../node_modules/_unist-util-visit-parents@2.0.1@unist-util-visit-parents/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     },
     {
-      "id": 371,
+      "id": 372,
       "name": "../node_modules/_unist-util-visit-parents@1.1.2@unist-util-visit-parents/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "unist-util-is": [
     {
-      "id": 334,
+      "id": 335,
       "name": "../node_modules/_unist-util-is@2.1.2@unist-util-is/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/newline": [
     {
-      "id": 335,
+      "id": 336,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/newline.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/code-indented": [
     {
-      "id": 336,
+      "id": 337,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/code-indented.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/code-fenced": [
     {
-      "id": 337,
+      "id": 338,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/code-fenced.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/blockquote": [
     {
-      "id": 338,
+      "id": 339,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/blockquote.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/heading-atx": [
     {
-      "id": 339,
+      "id": 340,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/heading-atx.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/thematic-break": [
     {
-      "id": 340,
+      "id": 341,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/thematic-break.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/list": [
     {
-      "id": 341,
+      "id": 342,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/list.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../util/remove-indentation": [
     {
-      "id": 342,
+      "id": 343,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/util/remove-indentation.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/heading-setext": [
     {
-      "id": 343,
+      "id": 344,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/heading-setext.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/html-block": [
     {
-      "id": 344,
+      "id": 345,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/html-block.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/footnote-definition": [
     {
-      "id": 345,
+      "id": 346,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/footnote-definition.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "collapse-white-space": [
     {
-      "id": 346,
+      "id": 347,
       "name": "../node_modules/_collapse-white-space@1.0.4@collapse-white-space/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/definition": [
     {
-      "id": 347,
+      "id": 348,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/definition.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/table": [
     {
-      "id": 348,
+      "id": 349,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/table.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/paragraph": [
     {
-      "id": 349,
+      "id": 350,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/paragraph.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/escape": [
     {
-      "id": 350,
+      "id": 351,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/escape.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../locate/escape": [
     {
-      "id": 351,
+      "id": 352,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/locate/escape.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/auto-link": [
     {
-      "id": 352,
+      "id": 353,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/auto-link.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/url": [
     {
-      "id": 353,
+      "id": 354,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/url.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../locate/url": [
     {
-      "id": 354,
+      "id": 355,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/locate/url.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/html-inline": [
     {
-      "id": 355,
+      "id": 356,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/html-inline.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/link": [
     {
-      "id": 356,
+      "id": 357,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/link.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/reference": [
     {
-      "id": 357,
+      "id": 358,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/reference.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/strong": [
     {
-      "id": 358,
+      "id": 359,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/strong.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../locate/strong": [
     {
-      "id": 359,
+      "id": 360,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/locate/strong.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/emphasis": [
     {
-      "id": 360,
+      "id": 361,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/emphasis.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "is-word-character": [
     {
-      "id": 361,
+      "id": 362,
       "name": "../node_modules/_is-word-character@1.0.2@is-word-character/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../locate/emphasis": [
     {
-      "id": 362,
+      "id": 363,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/locate/emphasis.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/delete": [
     {
-      "id": 363,
+      "id": 364,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/delete.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../locate/delete": [
     {
-      "id": 364,
+      "id": 365,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/locate/delete.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/code-inline": [
     {
-      "id": 365,
+      "id": 366,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/code-inline.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../locate/code-inline": [
     {
-      "id": 366,
+      "id": 367,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/locate/code-inline.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/break": [
     {
-      "id": 367,
+      "id": 368,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/break.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../locate/break": [
     {
-      "id": 368,
+      "id": 369,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/locate/break.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./tokenize/text": [
     {
-      "id": 369,
+      "id": 370,
       "name": "../node_modules/_remark-parse@5.0.0@remark-parse/lib/tokenize/text.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "mdast-add-list-metadata": [
     {
-      "id": 370,
+      "id": 371,
       "name": "../node_modules/_mdast-add-list-metadata@1.0.1@mdast-add-list-metadata/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./plugins/naive-html": [
     {
-      "id": 372,
+      "id": 373,
       "name": "../node_modules/_react-markdown@4.0.4@react-markdown/lib/plugins/naive-html.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./plugins/disallow-node": [
     {
-      "id": 373,
+      "id": 374,
       "name": "../node_modules/_react-markdown@4.0.4@react-markdown/lib/plugins/disallow-node.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./ast-to-react": [
     {
-      "id": 374,
+      "id": 375,
       "name": "../node_modules/_react-markdown@4.0.4@react-markdown/lib/ast-to-react.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./wrap-table-rows": [
     {
-      "id": 375,
+      "id": 376,
       "name": "../node_modules/_react-markdown@4.0.4@react-markdown/lib/wrap-table-rows.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./get-definitions": [
     {
-      "id": 376,
+      "id": 377,
       "name": "../node_modules/_react-markdown@4.0.4@react-markdown/lib/get-definitions.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./uri-transformer": [
     {
-      "id": 377,
+      "id": 378,
       "name": "../node_modules/_react-markdown@4.0.4@react-markdown/lib/uri-transformer.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./renderers": [
     {
-      "id": 378,
+      "id": 379,
       "name": "../node_modules/_react-markdown@4.0.4@react-markdown/lib/renderers.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./symbols": [
     {
-      "id": 379,
+      "id": 380,
       "name": "../node_modules/_react-markdown@4.0.4@react-markdown/lib/symbols.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "react-emoji-render": [
     {
-      "id": 380,
+      "id": 381,
       "name": "../node_modules/_react-emoji-render@0.5.0@react-emoji-render/lib/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./renderer": [
     {
-      "id": 381,
+      "id": 382,
       "name": "../node_modules/_react-emoji-render@0.5.0@react-emoji-render/lib/renderer.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "string-replace-to-array": [
     {
-      "id": 382,
+      "id": 383,
       "name": "../node_modules/_string-replace-to-array@1.0.3@string-replace-to-array/string-replace-to-array.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "lodash.isstring": [
     {
-      "id": 383,
+      "id": 384,
       "name": "../node_modules/_lodash.isstring@4.0.1@lodash.isstring/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "emoji-regex": [
     {
-      "id": 384,
+      "id": 385,
       "name": "../node_modules/_emoji-regex@6.5.1@emoji-regex/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./asciiRegex": [
     {
-      "id": 385,
+      "id": 386,
       "name": "../node_modules/_react-emoji-render@0.5.0@react-emoji-render/lib/asciiRegex.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./normalizeProtocol": [
     {
-      "id": 386,
+      "id": 387,
       "name": "../node_modules/_react-emoji-render@0.5.0@react-emoji-render/lib/normalizeProtocol.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./unicodeToCodepoint": [
     {
-      "id": 387,
+      "id": 388,
       "name": "../node_modules/_react-emoji-render@0.5.0@react-emoji-render/lib/unicodeToCodepoint.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "../data/aliases": [
     {
-      "id": 388,
+      "id": 389,
       "name": "../node_modules/_react-emoji-render@0.5.0@react-emoji-render/data/aliases.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "axios": [
     {
-      "id": 389,
+      "id": 390,
       "name": "../node_modules/_axios@0.18.0@axios/index.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./lib/axios": [
     {
-      "id": 390,
+      "id": 391,
       "name": "../node_modules/_axios@0.18.0@axios/lib/axios.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./core/Axios": [
     {
-      "id": 391,
+      "id": 392,
       "name": "../node_modules/_axios@0.18.0@axios/lib/core/Axios.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./helpers/normalizeHeaderName": [
     {
-      "id": 392,
+      "id": 393,
       "name": "../node_modules/_axios@0.18.0@axios/lib/helpers/normalizeHeaderName.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./../core/settle": [
     {
-      "id": 393,
+      "id": 394,
       "name": "../node_modules/_axios@0.18.0@axios/lib/core/settle.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./enhanceError": [
     {
-      "id": 394,
+      "id": 395,
       "name": "../node_modules/_axios@0.18.0@axios/lib/core/enhanceError.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./../helpers/buildURL": [
     {
-      "id": 395,
+      "id": 396,
       "name": "../node_modules/_axios@0.18.0@axios/lib/helpers/buildURL.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./../helpers/parseHeaders": [
     {
-      "id": 396,
+      "id": 397,
       "name": "../node_modules/_axios@0.18.0@axios/lib/helpers/parseHeaders.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./../helpers/isURLSameOrigin": [
     {
-      "id": 397,
+      "id": 398,
       "name": "../node_modules/_axios@0.18.0@axios/lib/helpers/isURLSameOrigin.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./../helpers/btoa": [
     {
-      "id": 398,
+      "id": 399,
       "name": "../node_modules/_axios@0.18.0@axios/lib/helpers/btoa.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./../helpers/cookies": [
     {
-      "id": 399,
+      "id": 400,
       "name": "../node_modules/_axios@0.18.0@axios/lib/helpers/cookies.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./InterceptorManager": [
     {
-      "id": 400,
+      "id": 401,
       "name": "../node_modules/_axios@0.18.0@axios/lib/core/InterceptorManager.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./dispatchRequest": [
     {
-      "id": 401,
+      "id": 402,
       "name": "../node_modules/_axios@0.18.0@axios/lib/core/dispatchRequest.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./transformData": [
     {
-      "id": 402,
+      "id": 403,
       "name": "../node_modules/_axios@0.18.0@axios/lib/core/transformData.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./../helpers/isAbsoluteURL": [
     {
-      "id": 403,
+      "id": 404,
       "name": "../node_modules/_axios@0.18.0@axios/lib/helpers/isAbsoluteURL.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./../helpers/combineURLs": [
     {
-      "id": 404,
+      "id": 405,
       "name": "../node_modules/_axios@0.18.0@axios/lib/helpers/combineURLs.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./cancel/CancelToken": [
     {
-      "id": 405,
+      "id": 406,
       "name": "../node_modules/_axios@0.18.0@axios/lib/cancel/CancelToken.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "./helpers/spread": [
     {
-      "id": 406,
+      "id": 407,
       "name": "../node_modules/_axios@0.18.0@axios/lib/helpers/spread.js",
-      "file": "build/0.js",
-      "publicPath": "/build/0.js"
+      "file": "0.js",
+      "publicPath": "/0.js"
     }
   ],
   "con_/Frame.jsx": [
     {
-      "id": 134,
+      "id": 135,
       "name": "./containers/Frame.jsx",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@babel/runtime/helpers/interopRequireDefault": [
     {
-      "id": 141,
+      "id": 142,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/interopRequireDefault.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     },
     {
       "id": 4,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/interopRequireDefault.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 4,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/interopRequireDefault.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../utils/ownerDocument": [
     {
-      "id": 143,
+      "id": 144,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/utils/ownerDocument.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./utils/createSvgIcon": [
     {
-      "id": 144,
+      "id": 145,
       "name": "../node_modules/_@material-ui_icons@3.0.1@@material-ui/icons/utils/createSvgIcon.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "keycode": [
     {
-      "id": 150,
+      "id": 151,
       "name": "../node_modules/_keycode@2.2.0@keycode/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../utils/ownerWindow": [
     {
-      "id": 151,
+      "id": 152,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/utils/ownerWindow.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "react-transition-group/Transition": [
     {
-      "id": 152,
+      "id": 153,
       "name": "../node_modules/_react-transition-group@2.5.1@react-transition-group/Transition.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./ListContext": [
     {
-      "id": 153,
+      "id": 154,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/List/ListContext.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./Drawer": [
     {
-      "id": 155,
+      "id": 156,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Drawer/Drawer.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../transitions/utils": [
     {
-      "id": 156,
+      "id": 157,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/transitions/utils.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/SvgIcon": [
     {
-      "id": 165,
+      "id": 166,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/SvgIcon/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../ButtonBase": [
     {
-      "id": 166,
+      "id": 167,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ButtonBase/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../NoSsr": [
     {
-      "id": 167,
+      "id": 168,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/NoSsr/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "react-lifecycles-compat": [
     {
-      "id": 168,
+      "id": 169,
       "name": "../node_modules/_react-lifecycles-compat@3.0.4@react-lifecycles-compat/react-lifecycles-compat.es.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../utils/reactHelpers": [
     {
-      "id": 169,
+      "id": 170,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/utils/reactHelpers.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./setDisplayName": [
     {
-      "id": 170,
+      "id": 171,
       "name": "../node_modules/_recompose@0.29.0@recompose/setDisplayName.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./wrapDisplayName": [
     {
-      "id": 171,
+      "id": 172,
       "name": "../node_modules/_recompose@0.29.0@recompose/wrapDisplayName.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./ModalManager": [
     {
-      "id": 178,
+      "id": 179,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Modal/ModalManager.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../util/camelizeStyle": [
     {
-      "id": 179,
+      "id": 180,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/util/camelizeStyle.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./inDOM": [
     {
-      "id": 180,
+      "id": 181,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/util/inDOM.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./manageAriaHidden": [
     {
-      "id": 181,
+      "id": 182,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Modal/manageAriaHidden.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./SvgIcon": [
     {
-      "id": 203,
+      "id": 204,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/SvgIcon/SvgIcon.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/ListItem": [
     {
-      "id": 204,
+      "id": 205,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ListItem/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./ListItem": [
     {
-      "id": 205,
+      "id": 206,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ListItem/ListItem.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./ButtonBase": [
     {
-      "id": 206,
+      "id": 207,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ButtonBase/ButtonBase.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./NoSsr": [
     {
-      "id": 207,
+      "id": 208,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/NoSsr/NoSsr.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./focusVisible": [
     {
-      "id": 208,
+      "id": 209,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ButtonBase/focusVisible.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./TouchRipple": [
     {
-      "id": 209,
+      "id": 210,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ButtonBase/TouchRipple.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@babel/runtime/helpers/toConsumableArray": [
     {
-      "id": 210,
+      "id": 211,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/toConsumableArray.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./arrayWithoutHoles": [
     {
-      "id": 211,
+      "id": 212,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/arrayWithoutHoles.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./iterableToArray": [
     {
-      "id": 212,
+      "id": 213,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/iterableToArray.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./nonIterableSpread": [
     {
-      "id": 213,
+      "id": 214,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/nonIterableSpread.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "react-transition-group/TransitionGroup": [
     {
-      "id": 214,
+      "id": 215,
       "name": "../node_modules/_react-transition-group@2.5.1@react-transition-group/TransitionGroup.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./utils/ChildMapping": [
     {
-      "id": 215,
+      "id": 216,
       "name": "../node_modules/_react-transition-group@2.5.1@react-transition-group/utils/ChildMapping.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./Ripple": [
     {
-      "id": 216,
+      "id": 217,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ButtonBase/Ripple.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./utils/PropTypes": [
     {
-      "id": 217,
+      "id": 218,
       "name": "../node_modules/_react-transition-group@2.5.1@react-transition-group/utils/PropTypes.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./createRippleHandler": [
     {
-      "id": 218,
+      "id": 219,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ButtonBase/createRippleHandler.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./MergeListContext": [
     {
-      "id": 219,
+      "id": 220,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ListItem/MergeListContext.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/ListItemIcon": [
     {
-      "id": 220,
+      "id": 221,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ListItemIcon/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./ListItemIcon": [
     {
-      "id": 221,
+      "id": 222,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ListItemIcon/ListItemIcon.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/icons/Home": [
     {
-      "id": 222,
+      "id": 223,
       "name": "../node_modules/_@material-ui_icons@3.0.1@@material-ui/icons/Home.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "recompose/pure": [
     {
-      "id": 223,
+      "id": 224,
       "name": "../node_modules/_recompose@0.29.0@recompose/pure.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./shouldUpdate": [
     {
-      "id": 224,
+      "id": 225,
       "name": "../node_modules/_recompose@0.29.0@recompose/shouldUpdate.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@babel/runtime/helpers/inheritsLoose": [
     {
-      "id": 225,
+      "id": 226,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/inheritsLoose.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./setStatic": [
     {
-      "id": 226,
+      "id": 227,
       "name": "../node_modules/_recompose@0.29.0@recompose/setStatic.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./getDisplayName": [
     {
-      "id": 227,
+      "id": 228,
       "name": "../node_modules/_recompose@0.29.0@recompose/getDisplayName.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     },
     {
       "id": 40,
       "name": "../node_modules/_@material-ui_utils@3.0.0-alpha.1@@material-ui/utils/getDisplayName.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 40,
       "name": "../node_modules/_@material-ui_utils@3.0.0-alpha.1@@material-ui/utils/getDisplayName.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./shallowEqual": [
     {
-      "id": 228,
+      "id": 229,
       "name": "../node_modules/_recompose@0.29.0@recompose/shallowEqual.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "fbjs/lib/shallowEqual": [
     {
-      "id": 229,
+      "id": 230,
       "name": "../node_modules/_fbjs@0.8.17@fbjs/lib/shallowEqual.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/ListItemText": [
     {
-      "id": 230,
+      "id": 231,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ListItemText/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./ListItemText": [
     {
-      "id": 231,
+      "id": 232,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ListItemText/ListItemText.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/icons/Face": [
     {
-      "id": 233,
+      "id": 234,
       "name": "../node_modules/_@material-ui_icons@3.0.1@@material-ui/icons/Face.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/icons/Sms": [
     {
-      "id": 234,
+      "id": 235,
       "name": "../node_modules/_@material-ui_icons@3.0.1@@material-ui/icons/Sms.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/icons/LocalOffer": [
     {
-      "id": 235,
+      "id": 236,
       "name": "../node_modules/_@material-ui_icons@3.0.1@@material-ui/icons/LocalOffer.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/icons/Link": [
     {
-      "id": 236,
+      "id": 237,
       "name": "../node_modules/_@material-ui_icons@3.0.1@@material-ui/icons/Link.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/List": [
     {
-      "id": 238,
+      "id": 239,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/List/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./List": [
     {
-      "id": 239,
+      "id": 240,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/List/List.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/ListSubheader": [
     {
-      "id": 240,
+      "id": 241,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ListSubheader/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./ListSubheader": [
     {
-      "id": 241,
+      "id": 242,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/ListSubheader/ListSubheader.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/AppBar": [
     {
-      "id": 243,
+      "id": 244,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/AppBar/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./AppBar": [
     {
-      "id": 244,
+      "id": 245,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/AppBar/AppBar.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/Toolbar": [
     {
-      "id": 246,
+      "id": 247,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Toolbar/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./Toolbar": [
     {
-      "id": 247,
+      "id": 248,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Toolbar/Toolbar.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/IconButton": [
     {
-      "id": 248,
+      "id": 249,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/IconButton/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./IconButton": [
     {
-      "id": 249,
+      "id": 250,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/IconButton/IconButton.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/icons/Menu": [
     {
-      "id": 250,
+      "id": 251,
       "name": "../node_modules/_@material-ui_icons@3.0.1@@material-ui/icons/Menu.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/SwipeableDrawer": [
     {
-      "id": 266,
+      "id": 267,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/SwipeableDrawer/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./SwipeableDrawer": [
     {
-      "id": 267,
+      "id": 268,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/SwipeableDrawer/SwipeableDrawer.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../Modal": [
     {
-      "id": 268,
+      "id": 269,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Modal/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./Modal": [
     {
-      "id": 269,
+      "id": 270,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Modal/Modal.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../RootRef": [
     {
-      "id": 270,
+      "id": 271,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/RootRef/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./RootRef": [
     {
-      "id": 271,
+      "id": 272,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/RootRef/RootRef.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../Portal": [
     {
-      "id": 272,
+      "id": 273,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Portal/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./Portal": [
     {
-      "id": 273,
+      "id": 274,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Portal/Portal.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "dom-helpers/style": [
     {
-      "id": 274,
+      "id": 275,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/style/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./camelize": [
     {
-      "id": 275,
+      "id": 276,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/util/camelize.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     },
     {
-      "id": 104,
+      "id": 105,
       "name": "../node_modules/_css-vendor@0.3.8@css-vendor/lib/camelize.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 104,
+      "id": 105,
       "name": "../node_modules/_css-vendor@0.3.8@css-vendor/lib/camelize.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../util/hyphenateStyle": [
     {
-      "id": 276,
+      "id": 277,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/util/hyphenateStyle.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./hyphenate": [
     {
-      "id": 277,
+      "id": 278,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/util/hyphenate.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./getComputedStyle": [
     {
-      "id": 278,
+      "id": 279,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/style/getComputedStyle.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./removeStyle": [
     {
-      "id": 279,
+      "id": 280,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/style/removeStyle.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../transition/properties": [
     {
-      "id": 280,
+      "id": 281,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/transition/properties.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../transition/isTransform": [
     {
-      "id": 281,
+      "id": 282,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/transition/isTransform.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "dom-helpers/util/scrollbarSize": [
     {
-      "id": 282,
+      "id": 283,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/util/scrollbarSize.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./isOverflowing": [
     {
-      "id": 283,
+      "id": 284,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Modal/isOverflowing.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "dom-helpers/query/isWindow": [
     {
-      "id": 284,
+      "id": 285,
       "name": "../node_modules/_dom-helpers@3.4.0@dom-helpers/query/isWindow.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../Backdrop": [
     {
-      "id": 285,
+      "id": 286,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Backdrop/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./Backdrop": [
     {
-      "id": 286,
+      "id": 287,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Backdrop/Backdrop.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../Fade": [
     {
-      "id": 287,
+      "id": 288,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Fade/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./Fade": [
     {
-      "id": 288,
+      "id": 289,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Fade/Fade.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "../Slide": [
     {
-      "id": 289,
+      "id": 290,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Slide/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./Slide": [
     {
-      "id": 290,
+      "id": 291,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Slide/Slide.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "./SwipeArea": [
     {
-      "id": 291,
+      "id": 292,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/SwipeableDrawer/SwipeArea.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "@material-ui/core/Drawer": [
     {
-      "id": 292,
+      "id": 293,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Drawer/index.js",
-      "file": "build/1.js",
-      "publicPath": "/build/1.js"
+      "file": "1.js",
+      "publicPath": "/1.js"
     }
   ],
   "con_/Home.jsx": [
     {
-      "id": 135,
+      "id": 136,
       "name": "./containers/Home.jsx",
-      "file": "build/2.js",
-      "publicPath": "/build/2.js"
+      "file": "2.js",
+      "publicPath": "/2.js"
     }
   ],
   "@material-ui/core/Card": [
     {
-      "id": 293,
+      "id": 294,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Card/index.js",
-      "file": "build/2.js",
-      "publicPath": "/build/2.js"
+      "file": "2.js",
+      "publicPath": "/2.js"
     }
   ],
   "./Card": [
     {
-      "id": 294,
+      "id": 295,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Card/Card.js",
-      "file": "build/2.js",
-      "publicPath": "/build/2.js"
+      "file": "2.js",
+      "publicPath": "/2.js"
     }
   ],
   "@material-ui/core/CardContent": [
     {
-      "id": 295,
+      "id": 296,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/CardContent/index.js",
-      "file": "build/2.js",
-      "publicPath": "/build/2.js"
+      "file": "2.js",
+      "publicPath": "/2.js"
     }
   ],
   "./CardContent": [
     {
-      "id": 296,
+      "id": 297,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/CardContent/CardContent.js",
-      "file": "build/2.js",
-      "publicPath": "/build/2.js"
+      "file": "2.js",
+      "publicPath": "/2.js"
     }
   ],
   "@material-ui/core/CardMedia": [
     {
-      "id": 297,
+      "id": 298,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/CardMedia/index.js",
-      "file": "build/2.js",
-      "publicPath": "/build/2.js"
+      "file": "2.js",
+      "publicPath": "/2.js"
     }
   ],
   "./CardMedia": [
     {
-      "id": 298,
+      "id": 299,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/CardMedia/CardMedia.js",
-      "file": "build/2.js",
-      "publicPath": "/build/2.js"
+      "file": "2.js",
+      "publicPath": "/2.js"
     }
   ],
   "./Graph": [
     {
-      "id": 407,
+      "id": 408,
       "name": "./components/markdown/Graph.jsx",
-      "file": "build/3.js",
-      "publicPath": "/build/3.js"
+      "file": "3.js",
+      "publicPath": "/3.js"
     }
   ],
   "@material-ui/core/SnackbarContent": [
     {
-      "id": 408,
+      "id": 409,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/SnackbarContent/index.js",
-      "file": "build/3.js",
-      "publicPath": "/build/3.js"
+      "file": "3.js",
+      "publicPath": "/3.js"
     }
   ],
   "./SnackbarContent": [
     {
-      "id": 409,
+      "id": 410,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/SnackbarContent/SnackbarContent.js",
-      "file": "build/3.js",
-      "publicPath": "/build/3.js"
+      "file": "3.js",
+      "publicPath": "/3.js"
     }
   ],
   "./Chart": [
     {
-      "id": 411,
+      "id": 412,
       "name": "./components/markdown/Chart.jsx",
-      "file": "build/4.js",
-      "publicPath": "/build/4.js"
+      "file": "4.js",
+      "publicPath": "/4.js"
     }
   ],
   "./Code": [
     {
-      "id": 410,
+      "id": 411,
       "name": "./components/markdown/Code.jsx",
-      "file": "build/5.js",
-      "publicPath": "/build/5.js"
+      "file": "5.js",
+      "publicPath": "/5.js"
     }
   ],
   "../utils/helpers": [
     {
-      "id": 139,
+      "id": 140,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/utils/helpers.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@material-ui/core/Typography": [
     {
-      "id": 142,
+      "id": 143,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Typography/index.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@material-ui/core/Paper": [
     {
-      "id": 145,
+      "id": 146,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Paper/index.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@babel/runtime/helpers/slicedToArray": [
     {
-      "id": 149,
+      "id": 150,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/slicedToArray.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@material-ui/core/CssBaseline": [
     {
-      "id": 154,
+      "id": 155,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/CssBaseline/index.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@babel/runtime/helpers/objectSpread": [
     {
-      "id": 164,
+      "id": 165,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/objectSpread.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "../utils/chainPropTypes": [
     {
-      "id": 172,
+      "id": 173,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/utils/chainPropTypes.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@material-ui/core/Divider": [
     {
-      "id": 173,
+      "id": 174,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Divider/index.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@material-ui/core/Hidden": [
     {
-      "id": 174,
+      "id": 175,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Hidden/index.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "react-event-listener": [
     {
-      "id": 175,
+      "id": 176,
       "name": "../node_modules/_react-event-listener@0.6.4@react-event-listener/dist/react-event-listener.cjs.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@babel/runtime/helpers/typeof": [
     {
-      "id": 176,
+      "id": 177,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/typeof.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
-    },
-    {
-      "id": 26,
-      "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/typeof.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
-    },
-    {
-      "id": 26,
-      "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/typeof.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "debounce": [
     {
-      "id": 177,
+      "id": 178,
       "name": "../node_modules/_debounce@1.2.0@debounce/index.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "com_/Content": [
     {
-      "id": 182,
+      "id": 183,
       "name": "./components/Content.jsx",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "com_/Footer": [
     {
-      "id": 183,
+      "id": 184,
       "name": "./components/Footer.jsx",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@material-ui/core/Grid": [
     {
-      "id": 184,
+      "id": 185,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Grid/index.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./arrayWithHoles": [
     {
-      "id": 200,
+      "id": 201,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/arrayWithHoles.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./iterableToArrayLimit": [
     {
-      "id": 201,
+      "id": 202,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/iterableToArrayLimit.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./nonIterableRest": [
     {
-      "id": 202,
+      "id": 203,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/nonIterableRest.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./Typography": [
     {
-      "id": 232,
+      "id": 233,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Typography/Typography.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./Divider": [
     {
-      "id": 237,
+      "id": 238,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Divider/Divider.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./CssBaseline": [
     {
-      "id": 242,
+      "id": 243,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/CssBaseline/CssBaseline.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./Paper": [
     {
-      "id": 245,
+      "id": 246,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Paper/Paper.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./Hidden": [
     {
-      "id": 251,
+      "id": 252,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Hidden/Hidden.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./HiddenJs": [
     {
-      "id": 252,
+      "id": 253,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Hidden/HiddenJs.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "../withWidth": [
     {
-      "id": 253,
+      "id": 254,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/withWidth/index.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./withWidth": [
     {
-      "id": 254,
+      "id": 255,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/withWidth/withWidth.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@babel/runtime/helpers/classCallCheck": [
     {
-      "id": 255,
+      "id": 256,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/classCallCheck.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     },
     {
       "id": 21,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/classCallCheck.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 21,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/classCallCheck.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@babel/runtime/helpers/createClass": [
     {
-      "id": 256,
+      "id": 257,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/createClass.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     },
     {
       "id": 22,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/createClass.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 22,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/createClass.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@babel/runtime/helpers/possibleConstructorReturn": [
     {
-      "id": 257,
+      "id": 258,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/possibleConstructorReturn.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     },
     {
       "id": 23,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/possibleConstructorReturn.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 23,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/possibleConstructorReturn.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./assertThisInitialized": [
     {
-      "id": 258,
+      "id": 259,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/assertThisInitialized.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "@babel/runtime/helpers/getPrototypeOf": [
     {
-      "id": 259,
+      "id": 260,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/getPrototypeOf.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     },
     {
       "id": 24,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/getPrototypeOf.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 24,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/getPrototypeOf.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@babel/runtime/helpers/inherits": [
     {
-      "id": 260,
+      "id": 261,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/inherits.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     },
     {
       "id": 25,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/inherits.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 25,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/inherits.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./setPrototypeOf": [
     {
-      "id": 261,
+      "id": 262,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/setPrototypeOf.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     },
     {
-      "id": 73,
+      "id": 74,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/setPrototypeOf.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 73,
+      "id": 74,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/setPrototypeOf.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@babel/runtime/helpers/objectWithoutProperties": [
     {
-      "id": 262,
+      "id": 263,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/objectWithoutProperties.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     },
     {
       "id": 7,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/objectWithoutProperties.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 7,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/objectWithoutProperties.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./objectWithoutPropertiesLoose": [
     {
-      "id": 263,
+      "id": 264,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     },
     {
-      "id": 72,
+      "id": 73,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 72,
+      "id": 73,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@babel/runtime/helpers/extends": [
     {
-      "id": 264,
+      "id": 265,
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/extends.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     },
     {
       "id": 5,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/extends.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 5,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/extends.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./HiddenCss": [
     {
-      "id": 265,
+      "id": 266,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Hidden/HiddenCss.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./Grid": [
     {
-      "id": 299,
+      "id": 300,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/Grid/Grid.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "../utils/requirePropFactory": [
     {
-      "id": 300,
+      "id": 301,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/utils/requirePropFactory.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "./Link": [
     {
-      "id": 413,
+      "id": 414,
       "name": "../node_modules/_react-router-dom@4.3.1@react-router-dom/es/Link.js",
-      "file": "build/common.js",
-      "publicPath": "/build/common.js"
+      "file": "common.js",
+      "publicPath": "/common.js"
     }
   ],
   "undefined": [
     {
       "id": "",
       "name": null,
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
-    },
-    {
-      "id": 130,
-      "name": "mermaid",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 131,
-      "name": "highlight",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "name": "mermaid",
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 132,
+      "name": "highlight",
+      "file": "main.css",
+      "publicPath": "/main.css"
+    },
+    {
+      "id": 133,
       "name": "chart",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": "",
       "name": null,
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
-    },
-    {
-      "id": 130,
-      "name": "mermaid",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     },
     {
       "id": 131,
-      "name": "highlight",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "name": "mermaid",
+      "file": "main.js",
+      "publicPath": "/main.js"
     },
     {
       "id": 132,
+      "name": "highlight",
+      "file": "main.js",
+      "publicPath": "/main.js"
+    },
+    {
+      "id": 133,
       "name": "chart",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "prop-types": [
     {
       "id": 0,
       "name": "../node_modules/_prop-types@15.6.2@prop-types/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 0,
       "name": "../node_modules/_prop-types@15.6.2@prop-types/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "react": [
     {
       "id": 1,
       "name": "../node_modules/_react@16.7.0-alpha.2@react/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 1,
       "name": "../node_modules/_react@16.7.0-alpha.2@react/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "warning": [
     {
       "id": 2,
       "name": "../node_modules/_warning@3.0.0@warning/browser.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 3,
       "name": "../node_modules/_warning@4.0.2@warning/warning.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 2,
       "name": "../node_modules/_warning@3.0.0@warning/browser.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     },
     {
       "id": 3,
       "name": "../node_modules/_warning@4.0.2@warning/warning.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "invariant": [
     {
       "id": 6,
       "name": "../node_modules/_invariant@2.2.4@invariant/browser.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 6,
       "name": "../node_modules/_invariant@2.2.4@invariant/browser.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@babel/runtime/helpers/defineProperty": [
     {
       "id": 8,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/defineProperty.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 8,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/defineProperty.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./rules/StyleRule": [
     {
       "id": 9,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/StyleRule.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 9,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/StyleRule.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "react-loadable": [
     {
       "id": 10,
       "name": "../node_modules/_react-loadable@5.5.0@react-loadable/lib/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 10,
       "name": "../node_modules/_react-loadable@5.5.0@react-loadable/lib/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@material-ui/utils": [
     {
       "id": 11,
       "name": "../node_modules/_@material-ui_utils@3.0.0-alpha.1@@material-ui/utils/index.es.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 11,
       "name": "../node_modules/_@material-ui_utils@3.0.0-alpha.1@@material-ui/utils/index.es.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@material-ui/core/styles": [
     {
       "id": 12,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 12,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./RuleList": [
     {
       "id": 13,
       "name": "../node_modules/_jss@9.8.7@jss/lib/RuleList.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 13,
       "name": "../node_modules/_jss@9.8.7@jss/lib/RuleList.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./../../_webpack@4.27.1@webpack/buildin/global.js": [
     {
       "id": 14,
       "name": "../node_modules/_webpack@4.27.1@webpack/buildin/global.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 14,
       "name": "../node_modules/_webpack@4.27.1@webpack/buildin/global.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./utils/toCssValue": [
     {
       "id": 15,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/toCssValue.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 15,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/toCssValue.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./utils/createRule": [
     {
       "id": 16,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/createRule.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 16,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/createRule.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "is-in-browser": [
     {
       "id": 17,
       "name": "../node_modules/_is-in-browser@1.1.3@is-in-browser/dist/module.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 17,
       "name": "../node_modules/_is-in-browser@1.1.3@is-in-browser/dist/module.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "deepmerge": [
     {
       "id": 18,
       "name": "../node_modules/_deepmerge@3.0.0@deepmerge/dist/umd.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 18,
       "name": "../node_modules/_deepmerge@3.0.0@deepmerge/dist/umd.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "react-router/es/matchPath": [
     {
       "id": 19,
       "name": "../node_modules/_react-router@4.3.1@react-router/es/matchPath.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 19,
       "name": "../node_modules/_react-router@4.3.1@react-router/es/matchPath.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "react-router/es/Route": [
     {
       "id": 20,
       "name": "../node_modules/_react-router@4.3.1@react-router/es/Route.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 20,
       "name": "../node_modules/_react-router@4.3.1@react-router/es/Route.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
+    }
+  ],
+  "../helpers/typeof": [
+    {
+      "id": 26,
+      "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/typeof.js",
+      "file": "main.css",
+      "publicPath": "/main.css"
+    },
+    {
+      "id": 26,
+      "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/typeof.js",
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../utils/toCss": [
     {
       "id": 27,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/toCss.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 27,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/toCss.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./sheets": [
     {
       "id": 28,
       "name": "../node_modules/_jss@9.8.7@jss/lib/sheets.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 28,
       "name": "../node_modules/_jss@9.8.7@jss/lib/sheets.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./prefix": [
     {
       "id": 29,
       "name": "../node_modules/_css-vendor@0.3.8@css-vendor/lib/prefix.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 29,
       "name": "../node_modules/_css-vendor@0.3.8@css-vendor/lib/prefix.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./createMuiTheme": [
     {
       "id": 30,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createMuiTheme.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 30,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createMuiTheme.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./themeListener": [
     {
       "id": 31,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/themeListener.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 31,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/themeListener.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./withStyles": [
     {
       "id": 32,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/withStyles.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 32,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/withStyles.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "react-dom": [
     {
       "id": 33,
       "name": "../node_modules/_react-dom@16.7.0-alpha.2@react-dom/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 33,
       "name": "../node_modules/_react-dom@16.7.0-alpha.2@react-dom/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../styles/colorManipulator": [
     {
       "id": 34,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/colorManipulator.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 34,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/colorManipulator.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "hoist-non-react-statics": [
     {
       "id": 35,
       "name": "../node_modules/_hoist-non-react-statics@3.2.1@hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 55,
       "name": "../node_modules/_hoist-non-react-statics@2.5.5@hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 35,
       "name": "../node_modules/_hoist-non-react-statics@3.2.1@hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     },
     {
       "id": 55,
       "name": "../node_modules/_hoist-non-react-statics@2.5.5@hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "object-assign": [
     {
       "id": 36,
       "name": "../node_modules/_object-assign@4.1.1@object-assign/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 36,
       "name": "../node_modules/_object-assign@4.1.1@object-assign/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "react-is": [
     {
       "id": 37,
       "name": "../node_modules/_react-is@16.6.3@react-is/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 37,
       "name": "../node_modules/_react-is@16.6.3@react-is/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./componentPropType": [
     {
       "id": 38,
       "name": "../node_modules/_@material-ui_utils@3.0.0-alpha.1@@material-ui/utils/componentPropType.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 38,
       "name": "../node_modules/_@material-ui_utils@3.0.0-alpha.1@@material-ui/utils/componentPropType.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./exactProp": [
     {
       "id": 39,
       "name": "../node_modules/_@material-ui_utils@3.0.0-alpha.1@@material-ui/utils/exactProp.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 39,
       "name": "../node_modules/_@material-ui_utils@3.0.0-alpha.1@@material-ui/utils/exactProp.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./ponyfillGlobal": [
     {
       "id": 41,
       "name": "../node_modules/_@material-ui_utils@3.0.0-alpha.1@@material-ui/utils/ponyfillGlobal.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 41,
       "name": "../node_modules/_@material-ui_utils@3.0.0-alpha.1@@material-ui/utils/ponyfillGlobal.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "jss": [
     {
       "id": 42,
       "name": "../node_modules/_jss@9.8.7@jss/lib/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 42,
       "name": "../node_modules/_jss@9.8.7@jss/lib/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./SheetsRegistry": [
     {
       "id": 43,
       "name": "../node_modules/_jss@9.8.7@jss/lib/SheetsRegistry.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 43,
       "name": "../node_modules/_jss@9.8.7@jss/lib/SheetsRegistry.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../utils/isObservable": [
     {
       "id": 44,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/isObservable.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 44,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/isObservable.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./utils/linkRule": [
     {
       "id": 45,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/linkRule.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 45,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/linkRule.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./utils/createGenerateClassName": [
     {
       "id": 46,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/createGenerateClassName.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 46,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/createGenerateClassName.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./StyleSheet": [
     {
       "id": 47,
       "name": "../node_modules/_jss@9.8.7@jss/lib/StyleSheet.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 47,
       "name": "../node_modules/_jss@9.8.7@jss/lib/StyleSheet.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./jssPreset": [
     {
       "id": 48,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/jssPreset.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 48,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/jssPreset.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./createGenerateClassName": [
     {
       "id": 49,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createGenerateClassName.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 49,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createGenerateClassName.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "_public": [
     {
       "id": 50,
       "name": "./utils/public.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 50,
       "name": "./utils/public.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "history": [
     {
       "id": 51,
       "name": "../node_modules/_history@4.7.2@history/es/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 51,
       "name": "../node_modules/_history@4.7.2@history/es/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@material-ui/core/LinearProgress": [
     {
       "id": 52,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/LinearProgress/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 52,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/LinearProgress/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./ponyfill.js": [
     {
       "id": 53,
       "name": "../node_modules/_symbol-observable@1.2.0@symbol-observable/es/ponyfill.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 53,
       "name": "../node_modules/_symbol-observable@1.2.0@symbol-observable/es/ponyfill.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "path-to-regexp": [
     {
       "id": 54,
       "name": "../node_modules/_path-to-regexp@1.7.0@path-to-regexp/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
       "id": 54,
       "name": "../node_modules/_path-to-regexp@1.7.0@path-to-regexp/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
+    }
+  ],
+  "../../config.json": [
+    {
+      "id": 56,
+      "name": "../config.json",
+      "file": "main.css",
+      "publicPath": "/main.css"
+    },
+    {
+      "id": 56,
+      "name": "../config.json",
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "classnames": [
     {
-      "id": 56,
+      "id": 57,
       "name": "../node_modules/_classnames@2.2.6@classnames/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 56,
+      "id": 57,
       "name": "../node_modules/_classnames@2.2.6@classnames/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@babel/runtime/helpers/assertThisInitialized": [
     {
-      "id": 57,
+      "id": 58,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/assertThisInitialized.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 57,
+      "id": 58,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/assertThisInitialized.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./createBreakpoints": [
     {
-      "id": 58,
+      "id": 59,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createBreakpoints.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 58,
+      "id": 59,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createBreakpoints.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./transitions": [
     {
-      "id": 59,
+      "id": 60,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/transitions.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 59,
+      "id": 60,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/transitions.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./withTheme": [
     {
-      "id": 60,
+      "id": 61,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/withTheme.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 60,
+      "id": 61,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/withTheme.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@babel/runtime/helpers/interopRequireWildcard": [
     {
-      "id": 62,
+      "id": 63,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/interopRequireWildcard.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 62,
+      "id": 63,
       "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/interopRequireWildcard.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./getThemeProps": [
     {
-      "id": 63,
+      "id": 64,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/getThemeProps.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 63,
+      "id": 64,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/getThemeProps.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../data.json": [
     {
-      "id": 64,
+      "id": 65,
       "name": "./data.json",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 64,
+      "id": 65,
       "name": "./data.json",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./cjs/react.production.min.js": [
     {
-      "id": 65,
+      "id": 66,
       "name": "../node_modules/_react@16.7.0-alpha.2@react/cjs/react.production.min.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 65,
+      "id": 66,
       "name": "../node_modules/_react@16.7.0-alpha.2@react/cjs/react.production.min.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./cjs/react-dom.production.min.js": [
     {
-      "id": 66,
+      "id": 67,
       "name": "../node_modules/_react-dom@16.7.0-alpha.2@react-dom/cjs/react-dom.production.min.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 66,
+      "id": 67,
       "name": "../node_modules/_react-dom@16.7.0-alpha.2@react-dom/cjs/react-dom.production.min.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "scheduler": [
     {
-      "id": 67,
+      "id": 68,
       "name": "../node_modules/_scheduler@0.12.0-alpha.3@scheduler/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 67,
+      "id": 68,
       "name": "../node_modules/_scheduler@0.12.0-alpha.3@scheduler/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./cjs/scheduler.production.min.js": [
     {
-      "id": 68,
+      "id": 69,
       "name": "../node_modules/_scheduler@0.12.0-alpha.3@scheduler/cjs/scheduler.production.min.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 68,
+      "id": 69,
       "name": "../node_modules/_scheduler@0.12.0-alpha.3@scheduler/cjs/scheduler.production.min.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./factoryWithThrowingShims": [
     {
-      "id": 69,
+      "id": 70,
       "name": "../node_modules/_prop-types@15.6.2@prop-types/factoryWithThrowingShims.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 69,
+      "id": 70,
       "name": "../node_modules/_prop-types@15.6.2@prop-types/factoryWithThrowingShims.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./lib/ReactPropTypesSecret": [
     {
-      "id": 70,
+      "id": 71,
       "name": "../node_modules/_prop-types@15.6.2@prop-types/lib/ReactPropTypesSecret.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 70,
+      "id": 71,
       "name": "../node_modules/_prop-types@15.6.2@prop-types/lib/ReactPropTypesSecret.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./LinearProgress": [
     {
-      "id": 71,
+      "id": 72,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/LinearProgress/LinearProgress.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 71,
+      "id": 72,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/LinearProgress/LinearProgress.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./cjs/react-is.production.min.js": [
     {
-      "id": 74,
+      "id": 75,
       "name": "../node_modules/_react-is@16.6.3@react-is/cjs/react-is.production.min.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 74,
+      "id": 75,
       "name": "../node_modules/_react-is@16.6.3@react-is/cjs/react-is.production.min.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./utils/getDynamicStyles": [
     {
-      "id": 75,
+      "id": 76,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/getDynamicStyles.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 75,
+      "id": 76,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/getDynamicStyles.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./SheetsManager": [
     {
-      "id": 76,
+      "id": 77,
       "name": "../node_modules/_jss@9.8.7@jss/lib/SheetsManager.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 76,
+      "id": 77,
       "name": "../node_modules/_jss@9.8.7@jss/lib/SheetsManager.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../utils/cloneStyle": [
     {
-      "id": 77,
+      "id": 78,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/cloneStyle.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 77,
+      "id": 78,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/cloneStyle.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "symbol-observable": [
     {
-      "id": 78,
+      "id": 79,
       "name": "../node_modules/_symbol-observable@1.2.0@symbol-observable/es/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 78,
+      "id": 79,
       "name": "../node_modules/_symbol-observable@1.2.0@symbol-observable/es/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./../../_webpack@4.27.1@webpack/buildin/harmony-module.js": [
     {
-      "id": 79,
+      "id": 80,
       "name": "../node_modules/_webpack@4.27.1@webpack/buildin/harmony-module.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 79,
+      "id": 80,
       "name": "../node_modules/_webpack@4.27.1@webpack/buildin/harmony-module.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./utils/escape": [
     {
-      "id": 80,
+      "id": 81,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/escape.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 80,
+      "id": 81,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/escape.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./moduleId": [
     {
-      "id": 81,
+      "id": 82,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/moduleId.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 81,
+      "id": 82,
       "name": "../node_modules/_jss@9.8.7@jss/lib/utils/moduleId.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./Jss": [
     {
-      "id": 82,
+      "id": 83,
       "name": "../node_modules/_jss@9.8.7@jss/lib/Jss.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 82,
+      "id": 83,
       "name": "../node_modules/_jss@9.8.7@jss/lib/Jss.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./PluginsRegistry": [
     {
-      "id": 83,
+      "id": 84,
       "name": "../node_modules/_jss@9.8.7@jss/lib/PluginsRegistry.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 83,
+      "id": 84,
       "name": "../node_modules/_jss@9.8.7@jss/lib/PluginsRegistry.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./plugins/rules": [
     {
-      "id": 84,
+      "id": 85,
       "name": "../node_modules/_jss@9.8.7@jss/lib/plugins/rules.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 84,
+      "id": 85,
       "name": "../node_modules/_jss@9.8.7@jss/lib/plugins/rules.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../rules/SimpleRule": [
     {
-      "id": 85,
+      "id": 86,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/SimpleRule.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 85,
+      "id": 86,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/SimpleRule.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../rules/KeyframesRule": [
     {
-      "id": 86,
+      "id": 87,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/KeyframesRule.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 86,
+      "id": 87,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/KeyframesRule.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../rules/ConditionalRule": [
     {
-      "id": 87,
+      "id": 88,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/ConditionalRule.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 87,
+      "id": 88,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/ConditionalRule.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../rules/FontFaceRule": [
     {
-      "id": 88,
+      "id": 89,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/FontFaceRule.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 88,
+      "id": 89,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/FontFaceRule.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../rules/ViewportRule": [
     {
-      "id": 89,
+      "id": 90,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/ViewportRule.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 89,
+      "id": 90,
       "name": "../node_modules/_jss@9.8.7@jss/lib/rules/ViewportRule.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./plugins/observables": [
     {
-      "id": 90,
+      "id": 91,
       "name": "../node_modules/_jss@9.8.7@jss/lib/plugins/observables.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 90,
+      "id": 91,
       "name": "../node_modules/_jss@9.8.7@jss/lib/plugins/observables.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./plugins/functions": [
     {
-      "id": 91,
+      "id": 92,
       "name": "../node_modules/_jss@9.8.7@jss/lib/plugins/functions.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 91,
+      "id": 92,
       "name": "../node_modules/_jss@9.8.7@jss/lib/plugins/functions.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./renderers/DomRenderer": [
     {
-      "id": 92,
+      "id": 93,
       "name": "../node_modules/_jss@9.8.7@jss/lib/renderers/DomRenderer.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 92,
+      "id": 93,
       "name": "../node_modules/_jss@9.8.7@jss/lib/renderers/DomRenderer.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./renderers/VirtualRenderer": [
     {
-      "id": 93,
+      "id": 94,
       "name": "../node_modules/_jss@9.8.7@jss/lib/renderers/VirtualRenderer.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 93,
+      "id": 94,
       "name": "../node_modules/_jss@9.8.7@jss/lib/renderers/VirtualRenderer.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./reactJssContext": [
     {
-      "id": 94,
+      "id": 95,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/reactJssContext.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 94,
+      "id": 95,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/reactJssContext.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "jss-global": [
     {
-      "id": 95,
+      "id": 96,
       "name": "../node_modules/_jss-global@3.0.0@jss-global/lib/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 95,
+      "id": 96,
       "name": "../node_modules/_jss-global@3.0.0@jss-global/lib/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "jss-nested": [
     {
-      "id": 96,
+      "id": 97,
       "name": "../node_modules/_jss-nested@6.0.1@jss-nested/lib/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 96,
+      "id": 97,
       "name": "../node_modules/_jss-nested@6.0.1@jss-nested/lib/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "jss-camel-case": [
     {
-      "id": 97,
+      "id": 98,
       "name": "../node_modules/_jss-camel-case@6.1.0@jss-camel-case/lib/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 97,
+      "id": 98,
       "name": "../node_modules/_jss-camel-case@6.1.0@jss-camel-case/lib/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "hyphenate-style-name": [
     {
-      "id": 98,
+      "id": 99,
       "name": "../node_modules/_hyphenate-style-name@1.0.2@hyphenate-style-name/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 98,
+      "id": 99,
       "name": "../node_modules/_hyphenate-style-name@1.0.2@hyphenate-style-name/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "jss-default-unit": [
     {
-      "id": 99,
+      "id": 100,
       "name": "../node_modules/_jss-default-unit@8.0.2@jss-default-unit/lib/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 99,
+      "id": 100,
       "name": "../node_modules/_jss-default-unit@8.0.2@jss-default-unit/lib/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./defaultUnits": [
     {
-      "id": 100,
+      "id": 101,
       "name": "../node_modules/_jss-default-unit@8.0.2@jss-default-unit/lib/defaultUnits.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 100,
+      "id": 101,
       "name": "../node_modules/_jss-default-unit@8.0.2@jss-default-unit/lib/defaultUnits.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "jss-vendor-prefixer": [
     {
-      "id": 101,
+      "id": 102,
       "name": "../node_modules/_jss-vendor-prefixer@7.0.0@jss-vendor-prefixer/lib/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 101,
+      "id": 102,
       "name": "../node_modules/_jss-vendor-prefixer@7.0.0@jss-vendor-prefixer/lib/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "css-vendor": [
     {
-      "id": 102,
+      "id": 103,
       "name": "../node_modules/_css-vendor@0.3.8@css-vendor/lib/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 102,
+      "id": 103,
       "name": "../node_modules/_css-vendor@0.3.8@css-vendor/lib/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./supported-property": [
     {
-      "id": 103,
+      "id": 104,
       "name": "../node_modules/_css-vendor@0.3.8@css-vendor/lib/supported-property.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 103,
+      "id": 104,
       "name": "../node_modules/_css-vendor@0.3.8@css-vendor/lib/supported-property.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./supported-value": [
     {
-      "id": 105,
+      "id": 106,
       "name": "../node_modules/_css-vendor@0.3.8@css-vendor/lib/supported-value.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 105,
+      "id": 106,
       "name": "../node_modules/_css-vendor@0.3.8@css-vendor/lib/supported-value.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "jss-props-sort": [
     {
-      "id": 106,
+      "id": 107,
       "name": "../node_modules/_jss-props-sort@6.0.0@jss-props-sort/lib/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 106,
+      "id": 107,
       "name": "../node_modules/_jss-props-sort@6.0.0@jss-props-sort/lib/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./mergeClasses": [
     {
-      "id": 107,
+      "id": 108,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/mergeClasses.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 107,
+      "id": 108,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/mergeClasses.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./multiKeyStore": [
     {
-      "id": 108,
+      "id": 109,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/multiKeyStore.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 108,
+      "id": 109,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/multiKeyStore.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "is-plain-object": [
     {
-      "id": 109,
+      "id": 110,
       "name": "../node_modules/_is-plain-object@2.0.4@is-plain-object/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 109,
+      "id": 110,
       "name": "../node_modules/_is-plain-object@2.0.4@is-plain-object/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "isobject": [
     {
-      "id": 110,
+      "id": 111,
       "name": "../node_modules/_isobject@3.0.1@isobject/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 110,
+      "id": 111,
       "name": "../node_modules/_isobject@3.0.1@isobject/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./createMixins": [
     {
-      "id": 111,
+      "id": 112,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createMixins.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 111,
+      "id": 112,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createMixins.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./createPalette": [
     {
-      "id": 112,
+      "id": 113,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createPalette.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 112,
+      "id": 113,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createPalette.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../colors/indigo": [
     {
-      "id": 113,
+      "id": 114,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/colors/indigo.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 113,
+      "id": 114,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/colors/indigo.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../colors/pink": [
     {
-      "id": 114,
+      "id": 115,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/colors/pink.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 114,
+      "id": 115,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/colors/pink.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../colors/grey": [
     {
-      "id": 115,
+      "id": 116,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/colors/grey.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 115,
+      "id": 116,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/colors/grey.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../colors/red": [
     {
-      "id": 116,
+      "id": 117,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/colors/red.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 116,
+      "id": 117,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/colors/red.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "../colors/common": [
     {
-      "id": 117,
+      "id": 118,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/colors/common.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 117,
+      "id": 118,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/colors/common.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./createTypography": [
     {
-      "id": 118,
+      "id": 119,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createTypography.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 118,
+      "id": 119,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createTypography.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./shadows": [
     {
-      "id": 119,
+      "id": 120,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/shadows.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 119,
+      "id": 120,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/shadows.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./shape": [
     {
-      "id": 120,
+      "id": 121,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/shape.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 120,
+      "id": 121,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/shape.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./spacing": [
     {
-      "id": 121,
+      "id": 122,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/spacing.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 121,
+      "id": 122,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/spacing.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./zIndex": [
     {
-      "id": 122,
+      "id": 123,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/zIndex.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 122,
+      "id": 123,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/zIndex.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./getStylesCreator": [
     {
-      "id": 123,
+      "id": 124,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/getStylesCreator.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 123,
+      "id": 124,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/getStylesCreator.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./MuiThemeProvider": [
     {
-      "id": 124,
+      "id": 125,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/MuiThemeProvider.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 124,
+      "id": 125,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/MuiThemeProvider.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "brcast": [
     {
-      "id": 125,
+      "id": 126,
       "name": "../node_modules/_brcast@3.0.1@brcast/dist/brcast.es.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 125,
+      "id": 126,
       "name": "../node_modules/_brcast@3.0.1@brcast/dist/brcast.es.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./createStyles": [
     {
-      "id": 126,
+      "id": 127,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createStyles.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 126,
+      "id": 127,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/styles/createStyles.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "isarray": [
     {
-      "id": 127,
+      "id": 128,
       "name": "../node_modules/_isarray@0.0.1@isarray/index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 127,
+      "id": 128,
       "name": "../node_modules/_isarray@0.0.1@isarray/index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "@/css/public.css": [
     {
-      "id": 128,
+      "id": 129,
       "name": "./css/public.css",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 128,
+      "id": 129,
       "name": "./css/public.css",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "/home/tz/work/blog/src/index.js": [
     {
-      "id": 129,
+      "id": 130,
       "name": "./index.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 129,
+      "id": 130,
       "name": "./index.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ],
   "./withRouter": [
     {
-      "id": 136,
+      "id": 137,
       "name": "../node_modules/_react-router-dom@4.3.1@react-router-dom/es/withRouter.js",
-      "file": "build/main.css",
-      "publicPath": "/build/main.css"
+      "file": "main.css",
+      "publicPath": "/main.css"
     },
     {
-      "id": 136,
+      "id": 137,
       "name": "../node_modules/_react-router-dom@4.3.1@react-router-dom/es/withRouter.js",
-      "file": "build/main.js",
-      "publicPath": "/build/main.js"
+      "file": "main.js",
+      "publicPath": "/main.js"
     }
   ]
 }

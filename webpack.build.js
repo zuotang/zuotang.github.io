@@ -20,12 +20,17 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 //把manifest打包到html
 const InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin');
 
+//html生成
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+
+const webConfig=require('./config.json');
+const {basename,title}=webConfig;
 const config = {
   output: {
-    path: path.resolve(__dirname),
-    publicPath: '/',
-    filename: 'build/[name].js',
-    chunkFilename: 'build/[name].js',
+    path: path.resolve(__dirname,'build'),
+    publicPath: basename,
+    filename: `[name].js`,
+    chunkFilename: `[name].js`,
   },
   optimization: {
     nodeEnv: 'production',
@@ -99,11 +104,19 @@ const config = {
   },
   mode: 'production',
   plugins: [
+    
     new MiniCssExtractPlugin({
-      filename: 'build/[name].css',
-      chunkFilename: 'build/[name].css',
+      filename: `[name].css`,
+      chunkFilename: `[name].css`,
     }),
-    //new CleanWebpackPlugin(['./build/*']), //删除打包文件
+    
+    new CleanWebpackPlugin(['./build']), //删除打包文件
+    new HTMLWebpackPlugin({
+      title: title,
+      inject: true,
+      filename: '../index.html',
+      template: path.join(__dirname, './src/index.ejs'),
+    }),
     // new CopyWebpackPlugin([
     //   //复制静态文件
     //   {from: path.join(__dirname, './src/static'), to: 'static'},
@@ -114,6 +127,7 @@ const config = {
     new ReactLoadablePlugin({
       filename: './build/react-loadable.json',
     }),
+    
     new BundleAnalyzerPlugin(),
   ],
 };
