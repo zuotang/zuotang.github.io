@@ -28,7 +28,7 @@ const {basename,title}=webConfig;
 const config = {
   output: {
     path: path.resolve(__dirname,'build'),
-    publicPath: `${basename}/build`,
+    publicPath: `${basename}/build/`,
     filename: `[name].js`,
     chunkFilename: `[name].js`,
   },
