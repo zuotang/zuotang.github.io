@@ -1,5 +1,5 @@
 ## 个人博客 Tangzuo
-
+[点击查看](https://zuotang.github.io/blog/)
 ## 启动
 
 ```
