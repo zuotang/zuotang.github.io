@@ -28,7 +28,7 @@ const {basename,title}=webConfig;
 const config = {
   output: {
     path: path.resolve(__dirname,'build'),
-    publicPath: basename,
+    publicPath: `${basename}/build`,
     filename: `[name].js`,
     chunkFilename: `[name].js`,
   },
@@ -104,26 +104,19 @@ const config = {
   },
   mode: 'production',
   plugins: [
-    
-    new MiniCssExtractPlugin({
-      filename: `[name].css`,
-      chunkFilename: `[name].css`,
-    }),
-    
-    new CleanWebpackPlugin(['./build']), //删除打包文件
     new HTMLWebpackPlugin({
       title: title,
       inject: true,
       filename: '../index.html',
       template: path.join(__dirname, './src/index.ejs'),
     }),
-    // new CopyWebpackPlugin([
-    //   //复制静态文件
-    //   {from: path.join(__dirname, './src/static'), to: 'static'},
-    //   {from: path.join(__dirname, './src/article'), to: 'article'},
-    // ]),
+    new MiniCssExtractPlugin({
+      filename: `[name].css`,
+      chunkFilename: `[name].css`,
+    }),
+    
+    new CleanWebpackPlugin(['./build']), //删除打包文件
     new InlineManifestWebpackPlugin(),
-
     new ReactLoadablePlugin({
       filename: './build/react-loadable.json',
     }),
