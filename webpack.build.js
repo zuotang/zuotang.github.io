@@ -23,11 +23,11 @@ const InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin');
 //html生成
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 
-const webConfig=require('./config.json');
-const {basename,title}=webConfig;
+const webConfig = require('./config.json');
+const {basename, title} = webConfig;
 const config = {
   output: {
-    path: path.resolve(__dirname,'build'),
+    path: path.resolve(__dirname, 'build'),
     publicPath: `${basename}/build/`,
     filename: `[name].js`,
     chunkFilename: `[name].js`,
@@ -106,7 +106,7 @@ const config = {
   plugins: [
     new HTMLWebpackPlugin({
       title: title,
-      basename:basename,
+      basename: basename,
       inject: true,
       filename: '../index.html',
       template: path.join(__dirname, './src/index.ejs'),
@@ -115,14 +115,14 @@ const config = {
       filename: `[name].css`,
       chunkFilename: `[name].css`,
     }),
-    
+
     new CleanWebpackPlugin(['./build']), //删除打包文件
     new InlineManifestWebpackPlugin(),
     new ReactLoadablePlugin({
       filename: './build/react-loadable.json',
     }),
-    
-    new BundleAnalyzerPlugin(),
+
+    //new BundleAnalyzerPlugin(),
   ],
 };
 
