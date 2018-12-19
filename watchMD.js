@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const baseDir = path.resolve(__dirname, 'article');
+
+const dataPath = path.resolve(__dirname, './src/data.json');
 //　初始
 (function() {
   //初始遍历帖子
@@ -22,6 +24,9 @@ const baseDir = path.resolve(__dirname, 'article');
 
 // 初始遍历所有文章
 function initialPostData() {
+  //清空数据
+  fs.writeFileSync(dataPath, '{}');
+  //遍历文件
   let files = walk(baseDir);
   for (let {filename, filepath} of files) {
     handleMarkdown(filename, filepath);
@@ -55,25 +60,23 @@ function handleMarkdown(filename, filepath = null) {
 //　帖子数据更改
 function savePost(post) {
   if (!post.filename) return;
-  let filepath = path.resolve(__dirname, './src/data.json');
   let baseData = {};
   // 是否是首次启动
-  if (fs.existsSync(filepath)) {
-    baseData = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+  if (fs.existsSync(dataPath)) {
+    baseData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
   }
   let resData = Object.assign({}, baseData, {[post.filename]: post});
-  fs.writeFileSync(filepath, JSON.stringify(resData));
+  fs.writeFileSync(dataPath, JSON.stringify(resData));
 }
 
 //删除文章
 function removePost(filename) {
-  let filepath = path.resolve(__dirname, './src/data.json');
   let posts = {};
-  if (fs.existsSync(filepath)) {
-    posts = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+  if (fs.existsSync(dataPath)) {
+    posts = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
   }
   delete posts[filename];
-  fs.writeFileSync(filepath, JSON.stringify(posts));
+  fs.writeFileSync(dataPath, JSON.stringify(posts));
 }
 
 function getMarkdownData(source) {

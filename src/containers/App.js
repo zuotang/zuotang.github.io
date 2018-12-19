@@ -3,13 +3,15 @@ import {Route, Switch, withRouter} from 'react-router-dom';
 import Loadable from 'react-loadable';
 import Loading from 'com_/Loading';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
+import WebContext, {handleData} from 'contexts_/web';
+
 //取贴子数据
 import postData from '../data.json';
 //生成列表
 //生成归档
 //生成分类
 //生成标签
-
+const webData = handleData(postData);
 
 const theme = createMuiTheme({
   typography: {
@@ -33,12 +35,14 @@ const Post = Loadable({
 function App(props) {
   return (
     <MuiThemeProvider theme={theme}>
-      <Frame>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/post/:name" component={Post} />
-        </Switch>
-      </Frame>
+      <WebContext.Provider value={webData}>
+        <Frame>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/post/:name" component={Post} />
+          </Switch>
+        </Frame>
+      </WebContext.Provider>
     </MuiThemeProvider>
   );
 }

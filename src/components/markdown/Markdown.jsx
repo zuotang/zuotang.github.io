@@ -2,12 +2,15 @@ import React, {useEffect} from 'react';
 import ReactMarkdown from 'react-markdown';
 import Loadable from 'react-loadable';
 import Emoji from 'react-emoji-render';
+import classNames from 'classnames';
 
-import {withStyles} from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import {withRouter} from 'react-router-dom';
 import {getAnchor, toAnchor} from './Anchor';
 import {getImg} from '_public';
+
+import {withStyles} from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
+import Checkbox from '@material-ui/core/Checkbox';
 // 使用动态加载包，加快速度
 const Graph = Loadable({
   loader: () => import('./Graph'),
@@ -30,27 +33,48 @@ const styles = theme => ({
   link: {
     color: theme.palette.primary.main,
   },
+  checkbox: {
+    padding: '0',
+    marginRight: 3,
+    marginLeft: -30,
+  },
+  taskListItem: {
+    listStyleType: 'none',
+    display: 'list-item',
+  },
+  heading: {
+    margin: '32px 0 24px',
+  },
 });
-const variants = ['h2', 'h4', 'h6', 'subtitle1', 'subtitle2'];
+const variants = ['h4', 'h5', 'h6', 'subtitle1', 'subtitle2'];
 
 // 渲染自己的markdown元素，其中键表示节点类型，值是React组件。该对象与默认渲染器合并。传递给组件的props不同，具体取决于节点的类型。
 const renderers = {
   text: props => <Emoji text={props.children} />,
-  heading: withRouter(props => {
-    let value = props.children[0].props.value;
-    let anchor = getAnchor(value);
-    let level = props.level;
-    return (
-      <Typography gutterBottom variant={variants[level - 1]} id={`user-content-${anchor}`}>
-        {/* <a href={`/#${props.match.url}#${anchor}`}>-</a> */}
+  heading: withRouter(
+    withStyles(styles)(props => {
+      let value = props.children[0].props.value;
+      let anchor = getAnchor(value);
+      let level = props.level;
+      return (
+        <Typography gutterBottom variant={variants[level - 1]} className={props.classes.heading} id={`user-content-${anchor}`}>
+          {/* <a href={`/#${props.match.url}#${anchor}`}>-</a> */}
+          {props.children}
+        </Typography>
+      );
+    })
+  ),
+  paragraph: props => (
+    <Typography paragraph variant="body1">
+      {props.children}
+    </Typography>
+  ),
+  listItem: withStyles(styles)(({classes, checked, ...props}) => (
+    <li className={classNames(classes.listItem, checked !== null && classes.taskListItem)}>
+      <Typography component="span" variant="body1">
+        {checked !== null && <Checkbox checked={checked} className={classes.checkbox} />}
         {props.children}
       </Typography>
-    );
-  }),
-  paragraph: props => <Typography paragraph variant="body1" >{props.children}</Typography>,
-  listItem: withStyles(styles)(({classes, ...props}) => (
-    <li className={classes.listItem}>
-      <Typography component="span"  variant="body1">{props.children}</Typography>
     </li>
   )),
   code: props => {
@@ -68,7 +92,7 @@ const renderers = {
       {props.children}
     </a>
   )),
-  image: ({src,...props}) => {
+  image: ({src, ...props}) => {
     return <img {...props} src={getImg(src)} style={{maxWidth: '100%'}} />;
   },
 };

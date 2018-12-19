@@ -4,6 +4,7 @@ const alias = {
   '@': path.resolve(__dirname, './src/'),
   con_: path.resolve(__dirname, './src/containers/'),
   com_: path.resolve(__dirname, './src/components/'),
+  contexts_: path.resolve(__dirname, './src/contexts/'),
   api_: path.resolve(__dirname, './src/api/'),
   query_: path.resolve(__dirname, './src/query'),
   utils_: path.resolve(__dirname, './src/utils'),

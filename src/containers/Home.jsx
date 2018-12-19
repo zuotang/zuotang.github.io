@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from 'react';
+import React, {useEffect, useState, useContext} from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -11,7 +11,7 @@ import Content from 'com_/Content';
 
 import PostCard from 'com_/PostCard';
 import Footer from 'com_/Footer';
-import postData from '../data.json';
+import WebContext from 'contexts_/web';
 
 const styles = theme => ({
   layout: {
@@ -49,22 +49,21 @@ const styles = theme => ({
   },
 });
 
-const posts = Object.values(postData);
-
-
 const archives = ['2018年12月17日'];
 
-const social = ['GitHub', 'Twitter', 'Facebook'];
-
 function Blog(props) {
+  const webData = useContext(WebContext);
   const {classes} = props;
-  let [featured,setFeatured]=useState([]);
-  let [post,setPost]=useState([]);
-  useEffect(()=>{
-    setFeatured(posts.slice(0, 2));
-    setPost(posts.slice(2));
-  },[posts])
-  
+  let [featured, setFeatured] = useState([]);
+  useEffect(
+    () => {
+      //获取推荐
+      let featureds = webData.list.filter(item => item.categories.includes('featured')).slice(0, 2);
+      setFeatured(featureds);
+    },
+    [webData]
+  );
+
   return (
     <Content>
       <CssBaseline />
@@ -98,7 +97,7 @@ function Blog(props) {
             </Typography>
             <Divider />
 
-            {post.map((post, key) => (
+            {webData.list.map((post, key) => (
               <PostCard key={key} post={post} className={classes.post} />
             ))}
           </Grid>
@@ -112,14 +111,20 @@ function Blog(props) {
             <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
               归档
             </Typography>
-            {archives.map(archive => (
+            {webData.archives.map(archive => (
               <Typography key={archive}>{archive}</Typography>
             ))}
             <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
-              Social
+              分类
             </Typography>
-            {social.map(network => (
-              <Typography key={network}>{network}</Typography>
+            {webData.categories.map(categories => (
+              <Typography key={categories}>{categories}</Typography>
+            ))}
+            <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
+              Tags
+            </Typography>
+            {webData.tags.map(tag => (
+              <Typography key={tag}>{tag}</Typography>
             ))}
           </Grid>
         </Grid>

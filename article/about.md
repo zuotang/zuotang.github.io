@@ -2,7 +2,7 @@
 {
   "date": "2018/12/15",
   "tags": ["Python", "Javascript", "Hexo"],
-  "categories": ["Test"],
+  "categories": ["featured"],
   "description": "我叫唐左，你也可以叫我 luke，出生于 1993 年。",
   "thumbnail": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544809648282&di=ec308f39dd0da28df03245447be85921&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201412%2F04%2F20141204151458_TE52s.thumb.700_0.jpeg"
 }
