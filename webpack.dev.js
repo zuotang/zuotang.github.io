@@ -77,6 +77,7 @@ const config = {
     new webpack.HotModuleReplacementPlugin(), //热加载
     new HTMLWebpackPlugin({
       title: title,
+      basename:'',
       inject: true,
       filename: 'index.html',
       template: path.join(__dirname, './src/index.ejs'),

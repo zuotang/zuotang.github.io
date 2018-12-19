@@ -8,6 +8,7 @@ import Markdown from 'com_/markdown/Markdown';
 import Footer from 'com_/Footer';
 import axios from 'axios';
 import {getMarkdownData} from 'utils_/markdown';
+import {getArticle} from '_public';
 
 const styles = theme => ({});
 
@@ -21,7 +22,7 @@ function Post(props) {
   } = props;
   useEffect(
     () => {
-      axios.get(`/article/${name}.md`).then(res => {
+      axios.get(getArticle(`/article/${name}.md`)).then(res => {
         setMd(getMarkdownData(res.data));
       });
     },

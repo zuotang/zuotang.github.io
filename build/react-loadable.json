@@ -2029,18 +2029,6 @@
       "name": "../node_modules/_@babel_runtime@7.0.0@@babel/runtime/helpers/typeof.js",
       "file": "common.js",
       "publicPath": "/blog/build/common.js"
-    },
-    {
-      "id": 26,
-      "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/typeof.js",
-      "file": "main.css",
-      "publicPath": "/blog/build/main.css"
-    },
-    {
-      "id": 26,
-      "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/typeof.js",
-      "file": "main.js",
-      "publicPath": "/blog/build/main.js"
     }
   ],
   "debounce": [
@@ -2679,6 +2667,20 @@
     {
       "id": 20,
       "name": "../node_modules/_react-router@4.3.1@react-router/es/Route.js",
+      "file": "main.js",
+      "publicPath": "/blog/build/main.js"
+    }
+  ],
+  "../helpers/typeof": [
+    {
+      "id": 26,
+      "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/typeof.js",
+      "file": "main.css",
+      "publicPath": "/blog/build/main.css"
+    },
+    {
+      "id": 26,
+      "name": "../node_modules/_@babel_runtime@7.2.0@@babel/runtime/helpers/typeof.js",
       "file": "main.js",
       "publicPath": "/blog/build/main.js"
     }

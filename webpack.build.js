@@ -106,6 +106,7 @@ const config = {
   plugins: [
     new HTMLWebpackPlugin({
       title: title,
+      basename:basename,
       inject: true,
       filename: '../index.html',
       template: path.join(__dirname, './src/index.ejs'),
