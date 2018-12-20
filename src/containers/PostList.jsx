@@ -9,23 +9,12 @@ import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
 import Content from 'com_/Content';
 
-import PostCard from 'com_/PostCard';
 import PostItem from 'com_/PostItem';
 import Footer from 'com_/Footer';
 import WebContext from 'contexts_/web';
 import RightMenu from 'com_/RightMenu';
 
 const styles = theme => ({
-  mainFeaturedPost: {
-    backgroundColor: theme.palette.grey[0],
-    marginBottom: theme.spacing.unit * 4,
-  },
-  mainFeaturedPostContent: {
-    padding: `${theme.spacing.unit * 4}px`,
-    [theme.breakpoints.up('md')]: {
-      paddingRight: 0,
-    },
-  },
   mainGrid: {
     marginTop: theme.spacing.unit * 3,
   },
@@ -38,42 +27,11 @@ const styles = theme => ({
 function Blog(props) {
   const webData = useContext(WebContext);
   const {classes} = props;
-  let [featured, setFeatured] = useState([]);
-  useEffect(
-    () => {
-      //获取推荐
-      let featureds = webData.list.filter(item => item.categories.includes('featured')).slice(0, 2);
-      setFeatured(featureds);
-    },
-    [webData]
-  );
 
   return (
     <Content>
       <CssBaseline />
       <main>
-        {/* Main featured post */}
-        <Paper className={classes.mainFeaturedPost}>
-          <Grid container>
-            <Grid item>
-              <div className={classes.mainFeaturedPostContent}>
-                <Typography component="h1" variant="h4" color="secondary" gutterBottom>
-                  唐左的个人博客
-                </Typography>
-                <Typography variant="subtitle1" color="inherit" paragraph>
-                  记录最近学习知识，及一些个人想法。
-                </Typography>
-              </div>
-            </Grid>
-          </Grid>
-        </Paper>
-        <Grid container spacing={40} className={classes.cardGrid}>
-          {featured.map((post, key) => (
-            <Grid item xs={12} md={6} key={key}>
-              <PostCard post={post} />
-            </Grid>
-          ))}
-        </Grid>
         <Grid container spacing={40} className={classes.mainGrid}>
           <Grid item xs={12} md={8}>
             <Typography variant="h6" gutterBottom>

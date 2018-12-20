@@ -27,6 +27,10 @@ const Home = Loadable({
   loader: () => import('con_/Home.jsx'),
   loading: Loading,
 });
+const PostList = Loadable({
+  loader: () => import('con_/PostList.jsx'),
+  loading: Loading,
+});
 const Post = Loadable({
   loader: () => import('con_/Post.jsx'),
   loading: Loading,
@@ -39,6 +43,7 @@ function App(props) {
         <Frame>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/list/:categories?/:tags?/:archives?" component={PostList} />
             <Route exact path="/post/:name" component={Post} />
           </Switch>
         </Frame>

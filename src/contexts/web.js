@@ -22,7 +22,7 @@ function getArchives(list) {
   //去重
   return Array.from(new Set(archive));
 }
-
+// 获取数据里的数组
 function getSecondaryAttribute(list, attr) {
   let res = [];
   for (let post of list) {
