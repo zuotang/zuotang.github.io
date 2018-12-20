@@ -10,6 +10,7 @@ import Divider from '@material-ui/core/Divider';
 import Content from 'com_/Content';
 
 import PostCard from 'com_/PostCard';
+import PostItem from 'com_/PostItem';
 import Footer from 'com_/Footer';
 import WebContext from 'contexts_/web';
 
@@ -45,7 +46,8 @@ const styles = theme => ({
     marginTop: theme.spacing.unit * 3,
   },
   post: {
-    marginTop: theme.spacing.unit * 3,
+    marginTop: theme.spacing.unit * 1.5,
+    marginBottom: theme.spacing.unit * 1.5,
   },
 });
 
@@ -98,7 +100,10 @@ function Blog(props) {
             <Divider />
 
             {webData.list.map((post, key) => (
-              <PostCard key={key} post={post} className={classes.post} />
+              <React.Fragment key={key}>
+                <PostItem post={post} className={classes.post} />
+                <Divider />
+              </React.Fragment>
             ))}
           </Grid>
           <Grid item xs={12} md={4}>

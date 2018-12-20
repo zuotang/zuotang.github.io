@@ -15,6 +15,7 @@ import GitHub from 'com_/icons/GitHub';
 import MainListItems from './MainListItems';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import ListSubheader from '@material-ui/core/ListSubheader';
+import {github} from '_public';
 
 const drawerWidth = 240;
 
@@ -115,7 +116,7 @@ const Frame = function(props) {
           <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
             Blog
           </Typography>
-          <a href="https://github.com/zuotang">
+          <a href={github}>
             <IconButton color="inherit">
               <GitHub />
             </IconButton>
