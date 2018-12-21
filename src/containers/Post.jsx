@@ -3,6 +3,7 @@ import {withStyles} from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 
 import Content from 'com_/Content';
 import Markdown from 'com_/markdown/Markdown';
@@ -11,6 +12,7 @@ import axios from 'axios';
 import {getMarkdownData} from 'utils_/markdown';
 import {getArticle, getEditArticle} from '_public';
 import {FrameContext} from './Frame';
+import Emoji from 'react-emoji-render';
 
 const styles = theme => ({
   tools: {
@@ -77,12 +79,15 @@ function Post(props) {
         </Grid>
         <Grid item xs={12} md={2}>
           <div className={classes.rightList}>
+            <Typography component="span" variant="body1">
+              Contents
+            </Typography>
             {rightList.map((item, key) => (
-              <div key={key} style={{paddingLeft: item.level * 10}}>
+              <Typography component="span" color="textSecondary" variant="body1" key={key} style={{paddingLeft: (item.level - 1) * 10}}>
                 <a className={classes.link} href={`#${item.anchor}`}>
-                  {item.value}
+                  <Emoji text={item.value} />
                 </a>
-              </div>
+              </Typography>
             ))}
           </div>
         </Grid>
