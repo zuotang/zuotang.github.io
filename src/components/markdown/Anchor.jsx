@@ -8,8 +8,7 @@ export function getAnchor(value) {
 }
 
 // 滚动到锚点
-export function toAnchor(props) {
-  let hash = props.location.hash;
+export function toAnchor(hash,inputs) {
   return useEffect(
     () => {
       if (hash) {
@@ -20,6 +19,6 @@ export function toAnchor(props) {
         }
       }
     },
-    [props.location.hash]
+    inputs
   );
 }

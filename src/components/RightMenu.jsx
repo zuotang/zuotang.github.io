@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
-
-import WebContext from 'contexts_/web';
+import {Link} from 'react-router-dom';
+import dayjs from 'dayjs';
+import PostContext from 'contexts_/post';
 
 const styles = theme => ({
   sidebarAboutBox: {
@@ -18,8 +18,8 @@ const styles = theme => ({
 });
 
 function RightMenu(props) {
-  const webData = useContext(WebContext);
-  const {classes} = props;
+  const postData = useContext(PostContext);
+  const {classes,replace} = props;
   return (
     <React.Fragment>
       <Paper elevation={0} className={classes.sidebarAboutBox}>
@@ -31,20 +31,26 @@ function RightMenu(props) {
       <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
         归档
       </Typography>
-      {webData.archives.map(archive => (
-        <Typography key={archive}>{archive}</Typography>
+      {postData.archives.map((archive, key) => (
+        <Link replace={replace} key={key} to={{pathname: `/list/archive/${archive}`}}>
+          <Typography>{dayjs(archive).format('YYYY年MM月')}</Typography>
+        </Link>
       ))}
       <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
         分类
       </Typography>
-      {webData.categories.map(categories => (
-        <Typography key={categories}>{categories}</Typography>
+      {postData.categories.map((categories, key) => (
+        <Link replace={replace} key={key} to={{pathname: `/list/categories/${categories}`}}>
+          <Typography>{categories}</Typography>
+        </Link>
       ))}
       <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
         Tags
       </Typography>
-      {webData.tags.map(tag => (
-        <Typography key={tag}>{tag}</Typography>
+      {postData.tags.map((tag, key) => (
+        <Link replace={replace} key={key} to={{pathname: `/list/tag/${tag}`}}>
+          <Typography>{tag}</Typography>
+        </Link>
       ))}
     </React.Fragment>
   );

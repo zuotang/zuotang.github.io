@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import PropTypes from 'prop-types';
+import React, {useState, useContext} from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Divider from '@material-ui/core/Divider';
@@ -7,7 +6,6 @@ import Drawer from '@material-ui/core/Drawer';
 import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
 import List from '@material-ui/core/List';
-import MenuIcon from '@material-ui/icons/Menu';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import {withStyles} from '@material-ui/core/styles';
@@ -16,6 +14,13 @@ import MainListItems from './MainListItems';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import {github} from '_public';
+
+import MenuIcon from '@material-ui/icons/Menu';
+import ArrowBack from '@material-ui/icons/ArrowBack';
+import {withRouter} from 'react-router-dom';
+
+// 框架context
+export const FrameContext = React.createContext();
 
 const drawerWidth = 240;
 
@@ -40,6 +45,9 @@ const styles = theme => ({
     [theme.breakpoints.up('sm')]: {
       display: 'none',
     },
+  },
+  backButton: {
+    marginRight: 20,
   },
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
@@ -68,9 +76,16 @@ const styles = theme => ({
 });
 
 const Frame = function(props) {
+  const [title, setTitle] = useState('Blog');
   const [open, setOpen] = useState(false);
-  const {classes, children} = props;
+  const {
+    classes,
+    children,
+    location: {pathname},
+    history: {goBack},
+  } = props;
 
+  let showBack = pathname != '/';
   const drawer = (
     <React.Fragment>
       <div className={classes.toolbarContent}>
@@ -99,71 +114,81 @@ const Frame = function(props) {
   );
 
   return (
-    <div className={classes.root}>
-      <CssBaseline />
-      <AppBar position="fixed" className={classes.appBar}>
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="Open drawer"
-            onClick={e => {
-              setOpen(true);
-            }}
-            className={classes.menuButton}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
-            Blog
-          </Typography>
-          <a href={github}>
-            <IconButton color="inherit">
-              <GitHub />
-            </IconButton>
-          </a>
-        </Toolbar>
-      </AppBar>
-      <nav className={classes.drawer}>
-        <Hidden smUp implementation="css">
-          <SwipeableDrawer
-            container={props.container}
-            variant="temporary"
-            anchor={'left'}
-            open={open}
-            onClose={e => {
-              setOpen(false);
-            }}
-            onOpen={e => {
-              setOpen(true);
-            }}
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-            ModalProps={{
-              keepMounted: true,
-            }}
-          >
-            {drawer}
-          </SwipeableDrawer>
-        </Hidden>
-        <Hidden xsDown implementation="css">
-          <Drawer
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-            variant="permanent"
-            open
-          >
-            {drawer}
-          </Drawer>
-        </Hidden>
-      </nav>
-      <main className={classes.content}>
-        <div className={classes.toolbar} />
-        {children}
-      </main>
-    </div>
+    <FrameContext.Provider value={{title, setTitle}}>
+      <div className={classes.root}>
+        <CssBaseline />
+        <AppBar position="fixed" className={classes.appBar}>
+          <Toolbar>
+            {!showBack && (
+              <IconButton
+                color="inherit"
+                aria-label="Open drawer"
+                onClick={e => {
+                  setOpen(true);
+                }}
+                className={classes.menuButton}
+              >
+                <MenuIcon />
+              </IconButton>
+            )}
+            {showBack && (
+              <IconButton color="inherit" aria-label="Open drawer" onClick={goBack} className={classes.backButton}>
+                <ArrowBack />
+              </IconButton>
+            )}
+
+            <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
+              {title}
+            </Typography>
+            <a href={github}>
+              <IconButton color="inherit">
+                <GitHub />
+              </IconButton>
+            </a>
+          </Toolbar>
+        </AppBar>
+        <nav className={classes.drawer}>
+          <Hidden smUp implementation="css">
+            <SwipeableDrawer
+              container={props.container}
+              variant="temporary"
+              anchor={'left'}
+              open={open}
+              onClose={e => {
+                setOpen(false);
+              }}
+              onOpen={e => {
+                setOpen(true);
+              }}
+              classes={{
+                paper: classes.drawerPaper,
+              }}
+              ModalProps={{
+                keepMounted: true,
+              }}
+            >
+              {drawer}
+            </SwipeableDrawer>
+          </Hidden>
+          <Hidden xsDown implementation="css">
+            <Drawer
+              classes={{
+                paper: classes.drawerPaper,
+              }}
+              variant="permanent"
+              open
+            >
+              {drawer}
+            </Drawer>
+          </Hidden>
+        </nav>
+        <main className={classes.content}>
+          <div className={classes.toolbar} />
+          {children}
+        </main>
+      </div>
+    </FrameContext.Provider>
   );
 };
 
-export default withStyles(styles, {withTheme: true})(Frame);
+export default withRouter(withStyles(styles, {withTheme: true})(Frame));

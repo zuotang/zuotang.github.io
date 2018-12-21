@@ -10,10 +10,11 @@ import Divider from '@material-ui/core/Divider';
 import Content from 'com_/Content';
 
 import PostCard from 'com_/PostCard';
-import PostItem from 'com_/PostItem';
+import PostItem from 'com_/PostCard';
 import Footer from 'com_/Footer';
-import WebContext from 'contexts_/web';
+import PostContext from 'contexts_/post';
 import RightMenu from 'com_/RightMenu';
+import {FrameContext} from './Frame';
 
 const styles = theme => ({
   mainFeaturedPost: {
@@ -36,16 +37,19 @@ const styles = theme => ({
 });
 
 function Blog(props) {
-  const webData = useContext(WebContext);
+  const postData = useContext(PostContext);
+  const frame = useContext(FrameContext);
   const {classes} = props;
   let [featured, setFeatured] = useState([]);
+
   useEffect(
     () => {
       //获取推荐
-      let featureds = webData.list.filter(item => item.categories.includes('featured')).slice(0, 2);
+      let featureds = postData.list.filter(item => item.categories.includes('featured')).slice(0, 2);
       setFeatured(featureds);
+      frame.setTitle('Home')
     },
-    [webData]
+    [postData]
   );
 
   return (
@@ -75,21 +79,20 @@ function Blog(props) {
           ))}
         </Grid>
         <Grid container spacing={40} className={classes.mainGrid}>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} md={10}>
             <Typography variant="h6" gutterBottom>
               文章
             </Typography>
             <Divider />
 
-            {webData.list.map((post, key) => (
+            {postData.list.map((post, key) => (
               <React.Fragment key={key}>
                 <PostItem post={post} className={classes.post} />
-                <Divider />
               </React.Fragment>
             ))}
           </Grid>
-          <Grid item xs={12} md={4}>
-            <RightMenu />
+          <Grid item xs={12} md={2}>
+            <RightMenu replace={false} />
           </Grid>
         </Grid>
       </main>

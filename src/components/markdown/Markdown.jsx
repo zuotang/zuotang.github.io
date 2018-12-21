@@ -45,20 +45,25 @@ const styles = theme => ({
   heading: {
     margin: '32px 0 24px',
   },
+  point: {
+    position: 'absolute',
+    marginTop: -90,
+  },
 });
 const variants = ['h4', 'h5', 'h6', 'subtitle1', 'subtitle2'];
-
+let reightMenu = [];
 // 渲染自己的markdown元素，其中键表示节点类型，值是React组件。该对象与默认渲染器合并。传递给组件的props不同，具体取决于节点的类型。
 const renderers = {
   text: props => <Emoji text={props.children} />,
   heading: withRouter(
-    withStyles(styles)(props => {
+    withStyles(styles)(({classes, ...props}) => {
       let value = props.children[0].props.value;
       let anchor = getAnchor(value);
       let level = props.level;
+      reightMenu.push({value, level, anchor});
       return (
-        <Typography gutterBottom variant={variants[level - 1]} className={props.classes.heading} id={`user-content-${anchor}`}>
-          {/* <a href={`/#${props.match.url}#${anchor}`}>-</a> */}
+        <Typography gutterBottom variant={variants[level - 1]} className={classes.heading}>
+          <a className={classes.point} id={`user-content-${anchor}`} />
           {props.children}
         </Typography>
       );
@@ -98,8 +103,16 @@ const renderers = {
 };
 
 function Markdown({children, ...props}) {
-  toAnchor(props);
+  reightMenu = [];
+  //每次渲染
+  useEffect(
+    () => {
+      if (props.handleList) props.handleList(reightMenu);
+    },
+    [children]
+  );
+  toAnchor(props.location.hash, [props.location.hash, children]);
   return <ReactMarkdown renderers={renderers}>{children}</ReactMarkdown>;
 }
 
-export default withRouter(Markdown);
+export default withRouter(React.memo(Markdown));
