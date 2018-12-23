@@ -5,12 +5,15 @@ import Emoji from 'react-emoji-render';
 import classNames from 'classnames';
 
 import {withRouter} from 'react-router-dom';
-import {getAnchor, toAnchor} from './Anchor';
+//import {toAnchor} from './Anchor';
 import {getImg} from '_public';
 
 import {withStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Checkbox from '@material-ui/core/Checkbox';
+// import RightMenu from '../RightMenu';
+import {getAnchor} from './utils';
+
 // 使用动态加载包，加快速度
 const Graph = Loadable({
   loader: () => import('./Graph'),
@@ -51,7 +54,6 @@ const styles = theme => ({
   },
 });
 const variants = ['h4', 'h5', 'h6', 'subtitle1', 'subtitle2'];
-let reightMenu = [];
 // 渲染自己的markdown元素，其中键表示节点类型，值是React组件。该对象与默认渲染器合并。传递给组件的props不同，具体取决于节点的类型。
 const renderers = {
   text: props => <Emoji text={props.children} />,
@@ -60,10 +62,9 @@ const renderers = {
       let value = props.children[0].props.value;
       let anchor = getAnchor(value);
       let level = props.level;
-      reightMenu.push({value, level, anchor});
       return (
         <Typography gutterBottom variant={variants[level - 1]} className={classes.heading}>
-          <a className={classes.point} id={`user-content-${anchor}`} />
+          <a className={classes.point} id={anchor} />
           {props.children}
         </Typography>
       );
@@ -103,15 +104,7 @@ const renderers = {
 };
 
 function Markdown({children, ...props}) {
-  reightMenu = [];
-  //每次渲染
-  useEffect(
-    () => {
-      if (props.handleList) props.handleList(reightMenu);
-    },
-    [children]
-  );
-  toAnchor(props.location.hash, [props.location.hash, children]);
+  //toAnchor(props.location.hash, [props.location.hash, children]);
   return <ReactMarkdown renderers={renderers}>{children}</ReactMarkdown>;
 }
 

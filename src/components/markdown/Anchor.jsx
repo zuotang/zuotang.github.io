@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+
 // 通过value获取ID
 export function getAnchor(value) {
   if (!value) return '';
@@ -8,17 +9,14 @@ export function getAnchor(value) {
 }
 
 // 滚动到锚点
-export function toAnchor(hash,inputs) {
-  return useEffect(
-    () => {
-      if (hash) {
-        let id = `user-content-${decodeURI(hash.substr(1))}`;
-        let anchorElement = document.getElementById(id);
-        if (anchorElement) {
-          anchorElement.scrollIntoView({behavior: 'smooth', block: 'start'});
-        }
+export function toAnchor(hash, inputs) {
+  return useEffect(() => {
+    if (hash) {
+      let id = `user-content-${decodeURI(hash.substr(1))}`;
+      let anchorElement = document.getElementById(id);
+      if (anchorElement) {
+        anchorElement.scrollIntoView({behavior: 'smooth', block: 'start'});
       }
-    },
-    inputs
-  );
+    }
+  }, inputs);
 }

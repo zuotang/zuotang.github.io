@@ -29,8 +29,6 @@ const render = (AppCom = App) => {
   );
 };
 //为了确保loadable加载完成
-window.main = () => {
-  Loadable.preloadReady().then(() => {
-    render();
-  });
-};
+Loadable.preloadReady().then(() => {
+  render();
+});
