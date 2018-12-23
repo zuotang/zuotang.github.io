@@ -172,7 +172,7 @@ sequenceDiagram
     Bob-->John: Jolly good!
 ```
 
-### Chart
+### Chart1
 
 ```chart
 {
