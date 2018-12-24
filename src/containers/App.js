@@ -35,13 +35,20 @@ const Post = Loadable({
   loading: Loading,
 });
 
+const ColumnList = Loadable({
+  loader: () => import('con_/ColumnList.jsx'),
+  loading: Loading,
+});
+
 function App(props) {
+  let {location} = props;
   return (
     <MuiThemeProvider theme={theme}>
       <PostContext.Provider value={postData}>
         <Frame>
-          <Switch>
+          <Switch location={location}>
             <Route exact path="/" component={Home} />
+            <Route exact path="/column/:name" component={ColumnList} />
             <Route exact path="/list/:name?/:value?" component={PostList} />
             <Route exact path="/post/:name" component={Post} />
           </Switch>

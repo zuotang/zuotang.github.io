@@ -45,9 +45,9 @@ function Blog(props) {
   useEffect(
     () => {
       //获取推荐
-      let featureds = postData.list.filter(item => item.categories.includes('featured')).slice(0, 2);
+      let featureds = postData.list.filter(item => item.categories && item.categories.includes('featured')).slice(0, 2);
       setFeatured(featureds);
-      frame.setTitle('Home')
+      frame.setTitle('Home');
     },
     [postData]
   );

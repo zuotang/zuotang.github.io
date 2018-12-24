@@ -16,6 +16,7 @@ export function getAnchor(str) {
 }
 
 export function format(str) {
+  if (!str) return;
   str = getTitle(str);
   str = str.toLowerCase();
   str = str.split(' ').join('-');

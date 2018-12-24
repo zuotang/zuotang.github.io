@@ -4,7 +4,7 @@
   "description": "gstzy.cn mobile",
   "scripts": {
     "start": "concurrently \"node watchMD.js\" \"npm run dev\"",
-    "dev" : "cross-env RUN_ENV=local NODE_ENV=development webpack-dev-server --watch-poll --progress --hotOnly  --mode development --config  ./webpack.dev.js",
+    "dev": "cross-env RUN_ENV=local NODE_ENV=development webpack-dev-server --watch-poll --progress --hotOnly  --mode development --config  ./webpack.dev.js",
     "build": "cross-env RUN_ENV=build NODE_ENV=production webpack --mode production --config ./webpack.build.js  --optimize-minimize"
   },
   "author": "",
@@ -25,7 +25,8 @@
     "react-markdown": "^4.0.4",
     "react-pullload": "^1.2.0",
     "react-rater": "^5.0.4",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "react-transition-group": "^2.5.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

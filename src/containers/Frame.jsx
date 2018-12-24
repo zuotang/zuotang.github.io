@@ -18,7 +18,7 @@ import {github} from '_public';
 import MenuIcon from '@material-ui/icons/Menu';
 import ArrowBack from '@material-ui/icons/ArrowBack';
 import {withRouter} from 'react-router-dom';
-
+import Animation from 'com_/Animation';
 // 框架context
 export const FrameContext = React.createContext();
 
@@ -55,6 +55,7 @@ const styles = theme => ({
   },
   content: {
     flexGrow: 1,
+    position: 'relative',
     width: `calc(100% - ${drawerWidth}px)`,
   },
   toolbarContent: {
@@ -72,6 +73,13 @@ const styles = theme => ({
     lineHeight: 1.6,
     letterSpacing: '0.0075em',
     margin: 0,
+  },
+  page: {
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    right: 0,
+    bottom: 0,
   },
 });
 
@@ -183,8 +191,12 @@ const Frame = function(props) {
           </Hidden>
         </nav>
         <main className={classes.content}>
-          <div className={classes.toolbar} />
-          {children}
+          <Animation>
+            <div className={classes.page}>
+              <div className={classes.toolbar} />
+              {children}
+            </div>
+          </Animation>
         </main>
       </div>
     </FrameContext.Provider>

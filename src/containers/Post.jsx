@@ -12,6 +12,7 @@ import axios from 'axios';
 import {getMarkdownData} from 'utils_/markdown';
 import {getArticle, getEditArticle} from '_public';
 import {FrameContext} from './Frame';
+import Comment from 'com_/Comment';
 
 const styles = theme => ({
   tools: {
@@ -28,9 +29,7 @@ function Post(props) {
       params: {name},
     },
   } = props;
-
   const [md, setMd] = useState();
-
   let frame = useContext(FrameContext);
   // 设置数据
   useEffect(
@@ -57,6 +56,7 @@ function Post(props) {
               <Button href={getEditArticle(name)}>编辑文章</Button>
             </div>
             {md && <Markdown className={classes.markdown}>{md.content}</Markdown>}
+            <Comment />
           </main>
         </Grid>
         <Grid item xs={12} md={2}>

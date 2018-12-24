@@ -2,11 +2,17 @@
 {
   "date": "2018/12/19",
   "categories": ["笔记"],
-  "description": "Sort 按时间排序"
+  "description": "杂记"
 }
 ```
 
-# Sort 按时间排序
+# 杂记
+
+## 如何在疲劳的 JS 世界中持续学习
+
+[如何在疲劳的 JS 世界中持续学习 ](https://github.com/ProtoTeam/blog/blob/master/201805/1.md)
+
+## Sort 按时间排序
 
 ```js
 array.sort(function(a, b) {
@@ -14,7 +20,7 @@ array.sort(function(a, b) {
 });
 ```
 
-# React16 Context 使用
+## React16 Context 使用
 
 // 创建 context 实例
 

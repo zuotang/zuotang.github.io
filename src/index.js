@@ -20,7 +20,6 @@ if (process.env.NODE_ENV == 'development') {
 //是否是服务器渲染
 const renderDOM = process.env.NODE_ENV == 'production' ? ReactDOM.hydrate : ReactDOM.render;
 const render = (AppCom = App) => {
-  console.log('render');
   renderDOM(
     <Router basename={basename}>
       <AppCom />
