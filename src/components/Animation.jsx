@@ -13,7 +13,7 @@ function Animation(props) {
   }
   return (
     <TransitionGroup className={classNames('full', direction)}>
-      <CSSTransition key={location.pathname} classNames="fade" timeout={800}>
+      <CSSTransition appear={true} enter={true} key={location.pathname} classNames="fade" timeout={800}>
         {children}
       </CSSTransition>
     </TransitionGroup>

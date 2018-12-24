@@ -38,29 +38,36 @@ svg {
 }
 
 .full {
-  width: 100%;
-
-  overflow: hidden;
+  position: relative;
+  z-index: 900;
+  height: 100%;
 }
 
 .fade-enter {
-  transform: translateY(100px);
-  opacity: 0;
-  z-index: 1;
-  transition: all 400ms ease;
-  transition-delay: 400ms;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
 .fade-enter-active {
-  transform: translateY(1px);
-  opacity: 1;
+  opacity: 0;
+  transform: translateY(100px);
 }
 .fade-enter-done {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 400ms ease;
 }
 
 .fade-exit {
-  z-index: 2;
   opacity: 1;
-  transform: translateY(1px);
+  transform: translateY(0);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 .fade-exit-active {
   transform: translateY(100px);

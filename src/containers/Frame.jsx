@@ -27,6 +27,8 @@ const drawerWidth = 240;
 const styles = theme => ({
   root: {
     display: 'flex',
+    width: '100%',
+    height: '100%',
   },
   drawer: {
     [theme.breakpoints.up('sm')]: {
@@ -57,6 +59,7 @@ const styles = theme => ({
     flexGrow: 1,
     position: 'relative',
     width: `calc(100% - ${drawerWidth}px)`,
+    height: '100%',
   },
   toolbarContent: {
     display: 'flex',
@@ -73,13 +76,6 @@ const styles = theme => ({
     lineHeight: 1.6,
     letterSpacing: '0.0075em',
     margin: 0,
-  },
-  page: {
-    position: 'absolute',
-    left: 0,
-    top: 0,
-    right: 0,
-    bottom: 0,
   },
 });
 
@@ -191,12 +187,8 @@ const Frame = function(props) {
           </Hidden>
         </nav>
         <main className={classes.content}>
-          <Animation>
-            <div className={classes.page}>
-              <div className={classes.toolbar} />
-              {children}
-            </div>
-          </Animation>
+          <div className={classes.toolbar} />
+          <Animation>{children}</Animation>
         </main>
       </div>
     </FrameContext.Provider>
