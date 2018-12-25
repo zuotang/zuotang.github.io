@@ -3071,7 +3071,7 @@
       "publicPath": "/blog/build/main.js"
     }
   ],
-  "./../_webpack@4.28.0@webpack/buildin/global.js": [
+  "./../../_webpack@4.28.0@webpack/buildin/global.js": [
     {
       "id": 14,
       "name": "../node_modules/_webpack@4.28.0@webpack/buildin/global.js",
