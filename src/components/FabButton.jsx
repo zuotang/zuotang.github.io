@@ -25,7 +25,6 @@ function FabButton(props) {
   };
   return (
     <Zoom
-      key={1}
       in={!isTop}
       timeout={transitionDuration}
       style={{

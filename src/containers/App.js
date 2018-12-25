@@ -48,7 +48,7 @@ function App(props) {
         <Frame>
           <Switch location={location}>
             <Route exact path="/" component={Home} />
-            <Route exact path="/column/:name" component={ColumnList} />
+            <Route exact path="/column/:name?" component={ColumnList} />
             <Route exact path="/list/:name?/:value?" component={PostList} />
             <Route exact path="/post/:name" component={Post} />
           </Switch>
