@@ -1,7 +1,7 @@
 ```json data
 {
   "date": "2018/12/17",
-  "tags": ["Markdown", "Javascript"],
+  "tags": ["React", "Javascript"],
   "categories": ["featured", "技术"],
   "description": "使用 react-markdown 插件，通过传入 renderers ",
   "thumbnail": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544809697737&di=bac48385254ad9967d4943b339f0c6df&imgtype=0&src=http%3A%2F%2Fimage2.xyzs.com%2Fupload%2Fa6%2F66%2F326%2F20150507%2F143093648599519_0.jpg"

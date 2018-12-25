@@ -39,7 +39,6 @@ function Code(props) {
     hljs.highlightBlock(codeRef.current);
   });
   const {classes} = props;
-
   return (
     <MuiThemeProvider theme={theme}>
       <Paper elevation={4} className={classes.code}>
