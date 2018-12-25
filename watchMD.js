@@ -63,7 +63,10 @@ function savePost(post) {
   let baseData = {};
   // 是否是首次启动
   if (fs.existsSync(dataPath)) {
-    baseData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    let dataStr = fs.readFileSync(dataPath, 'utf8');
+    if (dataStr) {
+      baseData = JSON.parse(dataStr);
+    }
   }
   let resData = Object.assign({}, baseData, {[post.filename]: post});
   fs.writeFileSync(dataPath, JSON.stringify(resData));

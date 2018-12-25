@@ -13,6 +13,7 @@ import {getMarkdownData} from 'utils_/markdown';
 import {getArticle, getEditArticle} from '_public';
 import {FrameContext} from './Frame';
 import Comment from 'com_/Comment';
+import Loader from 'com_/Loading';
 
 const styles = theme => ({
   tools: {
@@ -45,7 +46,6 @@ function Post(props) {
     },
     [name]
   );
-
   return (
     <Content>
       <CssBaseline />
