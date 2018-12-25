@@ -75,7 +75,6 @@ svg {
 
 .full {
   position: relative;
-  z-index: 900;
   height: calc(100% - 64px);
 }
 
@@ -87,7 +86,6 @@ svg {
   transform: translateY(150px);
   opacity: 0;
   min-height: 100%;
-  overflow: hidden;
 }
 
 .fade-appear,

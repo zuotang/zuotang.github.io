@@ -12,6 +12,8 @@ import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import Header from 'com_/Header';
 import Animation from 'com_/Animation';
+import FabButton from 'com_/FabButton';
+
 // 框架context
 export const FrameContext = React.createContext();
 
@@ -130,6 +132,7 @@ const Frame = function(props) {
         <main className={classes.content}>
           <div className={classes.toolbar} />
           <Animation>{children}</Animation>
+          <FabButton />
         </main>
       </div>
     </FrameContext.Provider>

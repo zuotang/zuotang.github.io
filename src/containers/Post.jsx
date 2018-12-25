@@ -3,6 +3,7 @@ import {withStyles} from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
+import Hidden from '@material-ui/core/Hidden';
 
 import Content from 'com_/Content';
 import Markdown from 'com_/markdown/Markdown';
@@ -13,7 +14,6 @@ import {getMarkdownData} from 'utils_/markdown';
 import {getArticle, getEditArticle} from '_public';
 import {FrameContext} from './Frame';
 import Comment from 'com_/Comment';
-import Loader from 'com_/Loading';
 
 const styles = theme => ({
   tools: {
@@ -59,9 +59,11 @@ function Post(props) {
             <Comment />
           </main>
         </Grid>
-        <Grid item xs={12} md={2}>
-          {md && <List markdown={md.content} />}
-        </Grid>
+        <Hidden xsDown>
+          <Grid item xs={12} md={2}>
+            {md && <List markdown={md.content} />}
+          </Grid>
+        </Hidden>
       </Grid>
       <Footer />
     </Content>

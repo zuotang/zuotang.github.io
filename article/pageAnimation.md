@@ -2,7 +2,7 @@
 {
   "date": "2018/12/25",
   "categories": ["笔记"],
-  "description": "杂记"
+  "description": "react 页面切换动画"
 }
 ```
 
