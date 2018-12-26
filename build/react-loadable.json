@@ -2389,7 +2389,7 @@
       "publicPath": "/blog/build/common.js"
     }
   ],
-  "../utils/ownerDocument": [
+  "./ownerDocument": [
     {
       "id": 152,
       "name": "../node_modules/_@material-ui_core@3.7.0@@material-ui/core/utils/ownerDocument.js",
