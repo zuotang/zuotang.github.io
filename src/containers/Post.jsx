@@ -56,7 +56,7 @@ function Post(props) {
               <Button href={getEditArticle(name)}>编辑文章</Button>
             </div>
             {md && <Markdown className={classes.markdown}>{md.content}</Markdown>}
-            <Comment />
+            {md && <Comment title={md.title} />}
           </main>
         </Grid>
         <Hidden xsDown>
