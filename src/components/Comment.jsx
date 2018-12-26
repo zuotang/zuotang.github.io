@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
 import {withStyles} from '@material-ui/core/styles';
 import {withRouter} from 'react-router-dom';
-import 'gitment/style/default.css';
-import Gitment from 'gitment';
+import 'gitalk/dist/gitalk.css';
+import Gitalk from 'gitalk';
 
 const styles = theme => ({
   comment: {
@@ -18,16 +18,17 @@ function Comment(props) {
   const commentRef = React.createRef();
   console.log(url);
   function renderComment() {
-    var gitment = new Gitment({
-      id: url, // 可选。默认为 location.href
-      owner: 'zuotang',
+    const gitalk = new Gitalk({
+      clientID: '689324e97de2ab6102e2',
+      clientSecret: 'b22d98c956a89a8c2ea26866f8a16e50981566da',
       repo: 'blog',
-      oauth: {
-        client_id: '689324e97de2ab6102e2',
-        client_secret: 'b22d98c956a89a8c2ea26866f8a16e50981566da',
-      },
+      owner: 'zuotang',
+      admin: ['zuotang'],
+      id: url, // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
     });
-    gitment.render(commentRef.current);
+
+    gitalk.render(commentRef.current);
   }
   // 设置数据
   useEffect(
@@ -55,7 +56,7 @@ function Comment(props) {
   );
   return (
     <div className={classes.comment}>
-      <div id="container" ref={commentRef} />
+      <div id="gitalk-container" ref={commentRef} />
     </div>
   );
 }

@@ -17,7 +17,7 @@
     "better-scroll": "^1.13.2",
     "classnames": "^2.2.6",
     "dayjs": "^1.7.7",
-    "gitment": "^0.0.3",
+    "gitalk": "^1.4.1",
     "react": "^16.7.0-alpha.2",
     "react-content-loader": "^3.2.0",
     "react-dom": "^16.7.0-alpha.2",
