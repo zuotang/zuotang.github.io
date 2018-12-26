@@ -16,11 +16,12 @@ function Comment(props) {
     match: {url},
   } = props;
   const commentRef = React.createRef();
+  console.log(url);
   function renderComment() {
     var gitment = new Gitment({
       id: url, // 可选。默认为 location.href
       owner: 'zuotang',
-      repo: 'zuotang.github.io',
+      repo: 'blog',
       oauth: {
         client_id: '689324e97de2ab6102e2',
         client_secret: 'b22d98c956a89a8c2ea26866f8a16e50981566da',

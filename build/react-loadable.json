@@ -4085,16 +4085,16 @@
       "publicPath": "/blog/build/main.js"
     }
   ],
-  "./../../_webpack@4.27.1@webpack/buildin/global.js": [
+  "./../../_webpack@4.28.0@webpack/buildin/global.js": [
     {
       "id": 14,
-      "name": "../node_modules/_webpack@4.27.1@webpack/buildin/global.js",
+      "name": "../node_modules/_webpack@4.28.0@webpack/buildin/global.js",
       "file": "main.css",
       "publicPath": "/blog/build/main.css"
     },
     {
       "id": 14,
-      "name": "../node_modules/_webpack@4.27.1@webpack/buildin/global.js",
+      "name": "../node_modules/_webpack@4.28.0@webpack/buildin/global.js",
       "file": "main.js",
       "publicPath": "/blog/build/main.js"
     }
@@ -4867,16 +4867,16 @@
       "publicPath": "/blog/build/main.js"
     }
   ],
-  "./../../_webpack@4.27.1@webpack/buildin/harmony-module.js": [
+  "./../../_webpack@4.28.0@webpack/buildin/harmony-module.js": [
     {
       "id": 85,
-      "name": "../node_modules/_webpack@4.27.1@webpack/buildin/harmony-module.js",
+      "name": "../node_modules/_webpack@4.28.0@webpack/buildin/harmony-module.js",
       "file": "main.css",
       "publicPath": "/blog/build/main.css"
     },
     {
       "id": 85,
-      "name": "../node_modules/_webpack@4.27.1@webpack/buildin/harmony-module.js",
+      "name": "../node_modules/_webpack@4.28.0@webpack/buildin/harmony-module.js",
       "file": "main.js",
       "publicPath": "/blog/build/main.js"
     }
