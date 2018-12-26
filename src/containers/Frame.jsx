@@ -20,11 +20,6 @@ export const FrameContext = React.createContext();
 const drawerWidth = 240;
 
 const styles = theme => ({
-  root: {
-    display: 'flex',
-    width: '100%',
-    height: '100%',
-  },
   drawer: {
     [theme.breakpoints.up('sm')]: {
       width: drawerWidth,
@@ -38,8 +33,13 @@ const styles = theme => ({
   content: {
     flexGrow: 1,
     position: 'relative',
-    width: `calc(100% - ${drawerWidth}px)`,
-    height: '100%',
+    width: `100%`,
+    [theme.breakpoints.up('sm')]: {
+      width: `calc(100% - ${drawerWidth}px)`,
+    },
+    height: 'auto',
+    display: 'flex',
+    flexDirection: 'column',
   },
   toolbarContent: {
     display: 'flex',
@@ -60,7 +60,6 @@ const Frame = function(props) {
   const [title, setTitle] = useState('Blog');
   const [open, setOpen] = useState(false);
   const {classes, children} = props;
-
   const drawer = (
     <React.Fragment>
       <div className={classes.toolbarContent}>
@@ -91,7 +90,7 @@ const Frame = function(props) {
 
   return (
     <FrameContext.Provider value={{title, setTitle}}>
-      <div className={classes.root}>
+      <React.Fragment>
         <CssBaseline />
         <Header title={title} setOpen={setOpen} />
         <nav className={classes.drawer}>
@@ -130,11 +129,13 @@ const Frame = function(props) {
           </Hidden>
         </nav>
         <main className={classes.content}>
-          <div className={classes.toolbar} />
-          <Animation>{children}</Animation>
+          <Animation>
+            <div className={classes.toolbar} />
+            {children}
+          </Animation>
           <FabButton />
         </main>
-      </div>
+      </React.Fragment>
     </FrameContext.Provider>
   );
 };

@@ -1,4 +1,4 @@
-import React, {PureComponent} from 'react';
+import React, {PureComponent, useEffect} from 'react';
 import {Route, Switch, withRouter} from 'react-router-dom';
 import Loadable from 'react-loadable';
 import Loading from 'com_/Loading';
@@ -42,6 +42,16 @@ const ColumnList = Loadable({
 
 function App(props) {
   let {location} = props;
+
+  function handleResize(e) {
+    document.body.style.minHeight = `${window.innerHeight}px`;
+  }
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  });
   return (
     <MuiThemeProvider theme={theme}>
       <PostContext.Provider value={postData}>

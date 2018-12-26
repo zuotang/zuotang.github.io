@@ -13,34 +13,41 @@ function Animation(props) {
   if (!window.scrollPoint) window.scrollPoint = {};
   // 动画滚动条的处理
   return (
-    <TransitionGroup appear className={'full'}>
+    <TransitionGroup appear component={null}>
       <CSSTransition
         onExit={node => {
           let top = document.documentElement.scrollTop;
-          node.parentNode.style.overflow = 'hidden';
+          node.style.overflow = 'hidden';
           document.documentElement.scrollTop = 0;
-          node.style.marginTop = `-${top}px`;
+          node.children[0].style.transform = `translateY(-${top}px)`;
           if (history.action == 'PUSH') {
             Object.assign(window.scrollPoint, {[pathname]: top});
           }
         }}
         onEnter={node => {
+          node.style.overflow = 'hidden';
           if (history.action == 'POP') {
-            node.style.marginTop = `-${window.scrollPoint[pathname]}px`;
+            node.children[0].style.transform = `translateY(-${window.scrollPoint[pathname]}px)`;
           }
         }}
         onEntered={node => {
-          node.parentNode.style.overflow = 'initial';
-          if (history.action == 'POP') {
-            node.style.marginTop = 0;
-            document.documentElement.scrollTop = window.scrollPoint[pathname];
-          }
+          setTimeout(() => {
+            node.style.overflow = 'inherit';
+            if (history.action == 'POP') {
+              node.children[0].style.transform = `translateY(0)`;
+              document.documentElement.scrollTop = window.scrollPoint[pathname];
+            }
+          }, 300);
         }}
         key={pathname}
         classNames="fade"
         timeout={350}
       >
-        <div className="fadeBox">{children}</div>
+        <div className="fadeBox">
+          <div>
+            <div>{children}</div>
+          </div>
+        </div>
       </CSSTransition>
     </TransitionGroup>
   );

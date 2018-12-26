@@ -7,6 +7,7 @@ import Zoom from '@material-ui/core/Zoom';
 const styles = theme => ({
   fab: {
     position: 'fixed',
+    zIndex: 2,
     bottom: theme.spacing.unit * 2,
     right: theme.spacing.unit * 2,
     [theme.breakpoints.up('sm')]: {
