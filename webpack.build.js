@@ -29,8 +29,8 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'build'),
     publicPath: `${basename}/build/`,
-    filename: `[name].js`,
-    chunkFilename: `[name].js`,
+    filename: `[name]_[contenthash].js`,
+    chunkFilename: `[name]_[contenthash].js`,
   },
   optimization: {
     nodeEnv: 'production',

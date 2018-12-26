@@ -21,7 +21,7 @@ function Comment(props) {
     const gitalk = new Gitalk({
       clientID: '689324e97de2ab6102e2',
       clientSecret: 'b22d98c956a89a8c2ea26866f8a16e50981566da',
-      repo: 'blog',
+      repo: 'zuotang.github.io',
       owner: 'zuotang',
       admin: ['zuotang'],
       id: url, // Ensure uniqueness and length less than 50
