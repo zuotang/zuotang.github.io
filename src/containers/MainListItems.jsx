@@ -35,7 +35,15 @@ const MainListItems = ({onClose}) => (
         <ListItemText primary="关于我" />
       </ListItem>
     </Link>
-    <ListItem button onClick={onClose}>
+    <Link to="/water">
+      <ListItem button onClick={onClose}>
+        <ListItemIcon>
+          <SmsIcon />
+        </ListItemIcon>
+        <ListItemText primary="水" />
+      </ListItem>
+    </Link>
+    {/* <ListItem button onClick={onClose}>
       <ListItemIcon>
         <SmsIcon />
       </ListItemIcon>
@@ -47,7 +55,7 @@ const MainListItems = ({onClose}) => (
         <LinkIcon />
       </ListItemIcon>
       <ListItemText primary="友情链接" />
-    </ListItem>
+    </ListItem> */}
   </React.Fragment>
 );
 

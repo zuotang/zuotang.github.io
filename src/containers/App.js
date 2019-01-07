@@ -39,6 +39,10 @@ const ColumnList = Loadable({
   loader: () => import('con_/ColumnList.jsx'),
   loading: Loading,
 });
+const Water = Loadable({
+  loader: () => import('con_/Water.jsx'),
+  loading: Loading,
+});
 
 function App(props) {
   let {location} = props;
@@ -58,6 +62,7 @@ function App(props) {
         <Frame>
           <Switch location={location}>
             <Route exact path="/" component={Home} />
+            <Route exact path="/water" component={Water} />
             <Route exact path="/column/:name?" component={ColumnList} />
             <Route exact path="/list/:name?/:value?" component={PostList} />
             <Route exact path="/post/:name" component={Post} />

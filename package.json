@@ -28,7 +28,8 @@
     "react-pullload": "^1.2.0",
     "react-rater": "^5.0.4",
     "react-router-dom": "^4.3.1",
-    "react-transition-group": "^2.5.2"
+    "react-transition-group": "^2.5.2",
+    "styled-components": "^4.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
