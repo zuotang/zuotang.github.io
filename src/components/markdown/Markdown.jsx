@@ -20,8 +20,6 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 
-
-
 // 使用动态加载包，加快速度
 const Graph = Loadable({
   loader: () => import('./Graph'),
@@ -60,9 +58,9 @@ const styles = theme => ({
     position: 'absolute',
     marginTop: -90,
   },
-  table:{
-    display:'inline-block'
-  }
+  table: {
+    display: 'inline-block',
+  },
 });
 const variants = ['h4', 'h5', 'h6', 'subtitle1', 'subtitle2'];
 // 渲染自己的markdown元素，其中键表示节点类型，值是React组件。该对象与默认渲染器合并。传递给组件的props不同，具体取决于节点的类型。
@@ -110,21 +108,31 @@ const renderers = {
   image: ({src, ...props}) => {
     return <img {...props} src={getImg(src)} style={{maxWidth: '100%'}} />;
   },
-  table: withStyles(styles)(({classes,children,...props}) => {
-    return  <Paper className={classes.table} ><Table>{children}</Table></Paper>;
+  table: withStyles(styles)(({classes, children, ...props}) => {
+    return (
+      <Paper className={classes.table}>
+        <Table>{children}</Table>
+      </Paper>
+    );
   }),
   tableHead: TableHead,
   tableBody: TableBody,
   tableRow: TableRow,
-  tableCell: ({children,align,...props}) => {
-    if(align===null){align=undefined}
-    console.log(children,props)
-    return  <TableCell align={align}>{children}</TableCell>;
+  tableCell: ({children, align, ...props}) => {
+    if (align === null) {
+      align = undefined;
+    }
+    console.log(children, props);
+    return <TableCell align={align}>{children}</TableCell>;
   },
 };
 
 function Markdown({children, ...props}) {
-  return <ReactMarkdown renderers={renderers}>{children}</ReactMarkdown>;
+  return (
+    <ReactMarkdown renderers={renderers} escapeHtml={false}>
+      {children}
+    </ReactMarkdown>
+  );
 }
 
 export default React.memo(Markdown);
